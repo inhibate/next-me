@@ -2,12 +2,12 @@ import '@/styles/general.css'
 import type {ReactElement, ReactNode} from 'react'
 import type {NextPage} from 'next'
 import type {AppProps} from 'next/app'
-import {Mulish} from 'next/font/google'
+import {Nunito_Sans} from 'next/font/google'
 import {Provider} from '@/GlobalRedux/provider'
 
-const font = Mulish({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin']
+const font = Nunito_Sans({
+  weight: ['400', '600', '700'],
+  subsets: ['latin', 'cyrillic']
 })
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
