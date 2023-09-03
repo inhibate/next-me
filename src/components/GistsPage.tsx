@@ -161,7 +161,6 @@ export default () => {
       <meta name="description" content="#PRG938 #gists #gitHub" />
     </Head>
     <GistUnwrapper ref={GistUnwrapperRef} />
-    <h2 className={styles.title}>Gists</h2>
     <h5>Fetched using <ExternalLink data={[GithubDocsURL, 'GitHub API']} /> and <ExternalLink data={['https://swr.vercel.app', 'SWR']} /></h5>
     <br/>
     <ul className={styles.gists}>{gists}</ul>

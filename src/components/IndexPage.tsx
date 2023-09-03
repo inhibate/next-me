@@ -10,10 +10,10 @@ import CityGallery from './CityGallery'
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
     <div className={styles.hi}>
-      <h1><b>IVAN PAKOV. 29YO</b></h1>
-      <div>Experienced in web development</div>
+      <h1><b>IVAN PAKOV</b></h1>
     </div>
     <div className={styles.contacts}>
+      <h2 style={{color: 'rebeccapurple', marginBottom: 20}}>Fullstack Developer (Next.js / Nest.js / TypeScript)</h2>
       <ul>
         <li>
           <span>Telegram: </span>
@@ -27,56 +27,40 @@ const Me: FunctionComponent = () => {
             <b>prg938@mail.ru</b>
           </a>
         </li>
-        <li>
-          <span>Github: </span>
-          <a href="https://github.com/prg938" target="_blank">
-            <b>prg938</b>
-          </a>
-        </li>
       </ul>
     </div>
   </div>
 }
 
+const Background: FunctionComponent = () => {
+  return <div className={styles.background}>
+    <h3>Background/Education: <a href="http://eng.iate.obninsk.ru" target="_blank">OINPE</a></h3>
+  </div>
+}
+
+const Location: FunctionComponent = () => {
+  return <div>
+    <h3>Location: Russia, Moscow/Obninsk </h3>
+  </div>
+}
+
 const WorkExperience: FunctionComponent = () => {
   return <div className={styles.workExperience}>
-    <h1>Commercial experience:</h1>
+    <h3>Commercial experience:</h3>
     <ul>
       <li>
         <div>
-          <h2>Now open to new opportunities</h2>
-          <div>
-            <b>Looking for positions: </b>
-          </div>
-          <div>
-            <ul>
-              <li>(Middle/Middle+) Frontend developer</li>
-              <li>(Middle/Middle+) React developer</li>
-              <li>(Middle/Middle+) JavaScript developer</li>
-              <li>(Junior) Fullstack developer</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h2>UI React Developer</h2>
+          <h2>Frontend Developer (React)</h2>
         </div>
         <div>
-          <b>Company: </b>
-          <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD(remote work)</a>
+          <b>At </b>
+          <a href="http://www.autoklad.ua" target='_blank'>remote/AUTOCLAD</a>
         </div>
         <div>
-          <b>Duration: </b>
+          <b>Time: </b>
           <span>2019 — Oct 4/2021</span>
         </div>
         <div>
-          <span>
-            <b>Team: -</b>
-          </span>
-        </div>
-        <div>
-          <b>Responsibilities: </b>
           <ul>
             <li>Creating/Updating business-logic using React for admin-panel</li>
             <li>Database interaction using REST API</li>
@@ -85,14 +69,14 @@ const WorkExperience: FunctionComponent = () => {
       </li>
       <li>
         <div>
-          <h2>UI React Developer</h2>
+          <h2>Frontend Developer (React)</h2>
         </div>
         <div>
-          <b>Company: </b>
-          <a href="http://altinet.ua" target='_blank'>ALTINET(remote work)</a>
+          <b>At </b>
+          <a href="http://altinet.ua" target='_blank'>remote/ALTINET</a>
         </div>
         <div>
-          <b>Duration: </b>
+          <b>Time: </b>
           <span>2016 — Aug 21/2018</span>
         </div>
         <div>
@@ -109,7 +93,6 @@ const WorkExperience: FunctionComponent = () => {
           </span>
         </div>
         <div>
-          <b>Responsibilities: </b>
           <ul>
             <li>Creating new business-logic using React</li>
             <li>Updating existing business-logic using React</li>
@@ -118,14 +101,14 @@ const WorkExperience: FunctionComponent = () => {
       </li>
       <li>
         <div>
-          <h2>React Frontend-developer</h2>
+          <h2>Frontend-developer (Angular 1 & React)</h2>
         </div>
         <div>
-          <b>Company: </b>
-          <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ(remote work)</a>
+          <b>At </b>
+          <a href="https://vk.com/tovarovoz" target='_blank'>remote/TOVAROVOZ</a>
         </div>
         <div>
-          <b>Duration: </b>
+          <b>Time: </b>
           <span>2015 — Jun 11/2016</span>
         </div>
         <div>
@@ -146,15 +129,13 @@ const WorkExperience: FunctionComponent = () => {
           </span>
         </div>
         <div>
-          <b>Responsibilities: </b>
           <ul>
-            <li>Creating/Updating business-logic using React for admin-panel</li>
-            <li>Creating custom UIs</li>
-            <li>Implementing CRUD for entities by interacting with backend REST API</li>
-            <li>Implementing client-routing for entities (cats/news/goods/etc)</li>
-            <li>Implementing i18n (internationalization) for 3 languages</li>
-            <li>Integrating 3rd-party components like WYSIWYG-editor and file-uploader</li>
-            <li>Bugfixing within project</li>
+            <li>Creating/Updating business-logic using Angular 1 & React for admin-panel</li>
+            <li>Implementing CRUD logic interacting with REST API</li>
+            <li>Implementing client-routing for entities</li>
+            <li>Implementing i18n for 3 languages</li>
+            <li>Resolving incoming bugs</li>
+            <li>Integrating external components (WYSIWYG-editor / file-uploader)</li>
           </ul>
         </div>
       </li>
@@ -162,15 +143,17 @@ const WorkExperience: FunctionComponent = () => {
   </div>
 }
 
-const Expertise: FunctionComponent = () => {
+const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3>Expertise:</h3>
+    <h3>Stack:</h3>
     <ul>
       <li><b>Frontend:</b></li>
       <li>JavaScript</li>
       <li>TypeScript</li>
       <li>React</li>
       <li>Redux</li>
+      <li>MUI</li>
+      <li>Antd</li>
       <li>RTK</li>
       <li>RTK Query</li>
       <li>Next.js</li>
@@ -203,32 +186,6 @@ const Expertise: FunctionComponent = () => {
   </div>
 }
 
-const WhoAmi: FunctionComponent = () => {
-  return <>
-    <h1 style={{color: 'rebeccapurple', marginTop: '50px'}}>Frontend/UI & Fullstack/Nest Developer</h1>
-  </>
-}
-
-const Background: FunctionComponent = () => {
-  return <div className={styles.background}>
-    <h3>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">OBNINSK INSTITUTE FOR NUCLEAR POWER ENGINEERING</a></h3>
-    <ul>
-      <li><b>Head:</b> <a href="https://eng.mephi.ru" target="_blank">Moscow Engineering Physics Institute (NRNU MEPhI)</a></li>
-      <li><b>Faculty:</b> Intelligent Cybernetic Systems</li>
-    </ul>
-  </div>
-}
-
-const Location: FunctionComponent = () => {
-  return <div>
-    <h3>Location: </h3>
-    <ul>
-      <li>Russia/Moscow</li>
-      <li>Russia/Obninsk. <b>Current location.</b> 97км to Moscow</li>
-    </ul>
-  </div>
-}
-
 const IndexPage: FunctionComponent = props => {
   useEffect(() => { console.log('WHOAMI') }, [])
   return (
@@ -242,17 +199,16 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.photoMeGroup}>
-          <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{width: '180px', height: 'auto', borderRadius: '7px'}} />
-          <Me />
+        <div style={{display: 'flex'}}>
+          <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{width: 180, height: 'auto', borderRadius: 16, marginRight: 20}} />
+          <CityGallery />
         </div>
-        <WhoAmi />
-        <Background />
         <Location />
-        <CityGallery />
+        <Me />
+        <Background />
         <div className={styles.skillsetWorkExperienceGroup}>
           <WorkExperience />
-          <Expertise />
+          <Stack />
         </div>
       </main>
     </>
