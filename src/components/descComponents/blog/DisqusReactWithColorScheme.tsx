@@ -33,20 +33,20 @@ const DisqusReactWithColorScheme: DescComponent<{}> = () => {
     </Paragraph>
     <Highlight {...opts}>{code}</Highlight>
     <Paragraph>
-      Есть статья и ее параметры: <Marker>url</Marker>  <Marker>identifier</Marker>  <Marker>title</Marker>. Передаем config с параметрами в DiscussionEmbed и Disqus загрузит thread-комментариев ассоциированный с данным набором параметров. Изи
+      Есть статья и ее параметры: <Marker>url</Marker>  <Marker>identifier</Marker>  <Marker>title</Marker>. Передаем config с параметрами в DiscussionEmbed и Disqus загрузит thread-комментариев ассоциированный с данным набором параметров.
     </Paragraph>
     <Paragraph>
-      Но не тут то было 
+      Одако присутствуют проблемы с изменением темы
     </Paragraph>
     <Image
       src={tension}
       alt="tension"
-      style={{width: '320px', height: 'auto', borderRadius: '7px'}}
+      style={{width: '220px', height: 'auto', borderRadius: '7px'}}
       placeholder='blur'
       blurDataURL={'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAAUABQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAI/9oACAEBAAAAAD//AP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIQAAAAf//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMQAAAAf//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z'}
       />
     <Paragraph>
-      Если на сайте темная тема: <Marker>:root[data-color-scheme="dark"]</Marker> то background Disqus-комментариев остается белый, а не прозрачный. 
+      Если на сайте темная тема: <Marker>:root[data-color-scheme=dark]</Marker> то background Disqus-комментариев остается белый, а не прозрачный. 
       Проблему можно решить добавив глобальный стиль:
     </Paragraph>
     <Highlight {...opts2}>{code2}</Highlight>
@@ -61,6 +61,6 @@ const DisqusReactWithColorScheme: DescComponent<{}> = () => {
     </Paragraph>
   </>
 }
-DisqusReactWithColorScheme.shortDesc = 'disqus-react это библиотека для интеграции Disqus-комментариев на сайт/сервис/блог.'
+DisqusReactWithColorScheme.shortDesc = 'disqus-react это библиотека для интеграции Disqus-комментариев на сайт'
 
 export default DisqusReactWithColorScheme

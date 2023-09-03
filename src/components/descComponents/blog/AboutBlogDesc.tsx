@@ -6,9 +6,9 @@ type DescComponent<T> = FC<T> & {shortDesc?: string}
 
 const AboutBlogDesc: DescComponent<{}> = () => {
   return <>
-    <Paragraph>Первый пост данного мини-блога</Paragraph>
+    <Paragraph>Первый пост используя SSG Next</Paragraph>
   </>
 }
-AboutBlogDesc.shortDesc = 'Первый пост данного мини-блога'
+AboutBlogDesc.shortDesc = 'Первый пост'
 
 export default AboutBlogDesc
