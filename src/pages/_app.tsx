@@ -2,10 +2,10 @@ import '@/styles/general.css'
 import type {ReactElement, ReactNode} from 'react'
 import type {NextPage} from 'next'
 import type {AppProps} from 'next/app'
-import {Inter} from 'next/font/google'
+import {Mulish} from 'next/font/google'
 import {Provider} from '@/GlobalRedux/provider'
 
-const inter = Inter({
+const font = Mulish({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin']
 })
@@ -24,7 +24,7 @@ export default function App({Component, pageProps}: AppPropsWithLayout) {
   const layout = getLayout(<Component {...pageProps} />)
   
   return (
-    <div className={inter.className}>
+    <div className={font.className}>
       <Provider>
         {layout}
       </Provider>
