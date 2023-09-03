@@ -2,7 +2,7 @@ import '@/styles/general.css'
 import type {ReactElement, ReactNode} from 'react'
 import type {NextPage} from 'next'
 import type {AppProps} from 'next/app'
-import {Nunito_Sans, Roboto_Flex} from 'next/font/google'
+import {Roboto_Flex} from 'next/font/google'
 import {Provider} from '@/GlobalRedux/provider'
 
 const font = Roboto_Flex({
