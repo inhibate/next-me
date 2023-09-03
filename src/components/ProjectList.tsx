@@ -45,7 +45,7 @@ const ProjectList: FC<ProjectListType> = ({list}) => {
         const h = previewSize![1]
         return <div key={id} className={styles.project}>
           <h3 className={styles.title}>
-            <Link href={projectHref}>🥤{repoName}</Link>
+            <Link href={projectHref}>{repoName}</Link>
           </h3>
           <Image
             src={src}
@@ -62,7 +62,7 @@ const ProjectList: FC<ProjectListType> = ({list}) => {
       default:
         return <div key={id} className={styles.project}>
           <h3 className={styles.title}>
-            <Link href={projectHref}>🥤{repoName}</Link>
+            <Link href={projectHref}>{repoName}</Link>
           </h3>
           <div className={styles.desc}>{shortDesc}</div>
         </div>

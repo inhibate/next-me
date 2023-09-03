@@ -15,7 +15,7 @@ const ProjectPage: FunctionComponent<ProjectListType> = ({projects}) => {
   let resolvedComponent: JSX.Element
   let title = 'PRG938/PROJECTS'
   let goBackElement = <div onClick={goBackHandler} className={styles.goBack}>
-    <span>🡠 Go back</span>
+    <span>🡠 back</span>
   </div>
   if (slugAll) {
     resolvedComponent = <ProjectList list={projects} />

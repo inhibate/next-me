@@ -3,7 +3,7 @@
     "id": "mariogame",
     "preview": "https://user-images.githubusercontent.com/7237762/223578682-67f165f4-6d51-423a-9740-96fb184dfe63.mp4",
     "previewSize": [451, 326],
-    "repoName": "Mario game",
+    "repoName": "browser mario game",
     "repoLink": "https://github.com/prg938/mariogame",
     "shortDesc": "Mario game using Canvas. 2 levels ready to be played! Other levels still under development😎",
     "mappedComponent": "MarioGameDesc"
@@ -27,12 +27,12 @@
     "mappedComponent": "MasonryLayoutDesc"
   },
   {
-    "id": "next-summary",
+    "id": "next-me",
     "preview": "default",
     "previewSize": [32, 32],
-    "repoName": "next summary",
-    "repoLink": "https://github.com/prg938/next-summary",
-    "shortDesc": "This site with Next",
+    "repoName": "next me",
+    "repoLink": "https://github.com/prg938/next-me",
+    "shortDesc": "prg938.vercel.app using Next.js",
     "mappedComponent": "NextSummaryDesc"
   },
   {
@@ -41,7 +41,7 @@
     "previewSize": [32, 32],
     "repoName": "wsp",
     "repoLink": "https://github.com/prg938/wsp",
-    "shortDesc": "external-scripts ⇒ inline-scripts (webpack plugin)",
+    "shortDesc": "external ⇒ inline script transformation (webpack plugin)",
     "mappedComponent": "WspDesc"
   },
   {
@@ -57,7 +57,7 @@
     "id": "cre",
     "preview": "default",
     "previewSize": [32, 32],
-    "repoName": "CRE",
+    "repoName": "cre",
     "repoLink": "https://github.com/prg938/cre",
     "shortDesc": "Bootstrap new Google Chrome extension fast. Write code using TypeScript / React",
     "mappedComponent": "CreDesc"

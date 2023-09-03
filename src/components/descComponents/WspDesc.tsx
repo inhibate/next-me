@@ -23,18 +23,17 @@ const WspDesc: FC<{}> = props => {
   const opts3 = {...colorScheme, language: colorScheme?.theme !== ColorSchemes.Text ? 'html' : undefined, showLineNumbers: false}
   return <div className={styles.desc}>
     <Paragraph>
-      WSP is a plugin for Webpack plugin system. Allows to transform external-scripts to inline-scripts. Suppose we have these scripts on the page:
+      <b>wsp</b> is a plugin for Webpack plugin system. Allows to transform external-scripts to inline-scripts. Suppose we have these scripts on the page:
     </Paragraph>
     <Highlight {...opts1}>{code}</Highlight>
     <Paragraph>
-      Transform external-scripts to inline-scripts:
+      transform:
     </Paragraph>
     <Highlight {...opts2}>{code2}</Highlight>
     <Paragraph>
-      Now we will get inline-scripts:
+      we will get inline-scripts:
     </Paragraph>
     <Highlight {...opts3}>{code3}</Highlight>
-    <Paragraph>THE END.</Paragraph>
   </div>
 }
 

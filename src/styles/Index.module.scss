@@ -4,6 +4,10 @@ $max-width: 550px;
   flex-direction: column;
   gap: 20px;
 
+  li {
+    list-style: none;
+  }
+
   .flexWrapper {
     display: flex;
     > img:first-child {
@@ -21,10 +25,6 @@ $max-width: 550px;
         display: none;
       }
     }
-  }
-
-  li {
-    list-style: none;
   }
   
   .contacts {

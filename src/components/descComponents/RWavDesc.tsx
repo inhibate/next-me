@@ -35,8 +35,6 @@ export default () => {
       As a bonus we can use it in CLI by specifying --source parameter 😎:
     </Paragraph>
     <Highlight {...opts} language='text'>{code2}</Highlight>
-    <Paragraph>
-      THE END.
-    </Paragraph>
+    <Paragraph>{}</Paragraph>
   </div>
 }

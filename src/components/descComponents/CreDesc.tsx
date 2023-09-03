@@ -66,37 +66,32 @@ const CreDsc: FC<{}> = props => {
 
   return <div className={styles.desc}>
     <Paragraph>
-      CRE allows to generate new Chrome extension and use TypeScript and React. This example demonstates this. But first we neet to init CRE: <a target="_blank" href="https://github.com/prg938/cre#usage">github.com/prg938/cre#usage</a>.
-      After that we can go to <b>index.tsx entry point</b> and define for example this component: 
+      Generate new Chrome extension fast
+    </Paragraph>
+    <Paragraph>
+      #1. Init CRE: <a target="_blank" href="https://github.com/prg938/cre#usage">github.com/prg938/cre#usage</a>.
+    </Paragraph>
+    <Paragraph>
+      #2. Go to <u>index.tsx entry point</u> and define for example this component: 
     </Paragraph>
     <Highlight {...opts}>{code}</Highlight>
     <Paragraph>
-      Now we can open Chrome popup-window and we will see <b>Hi</b>. Let's change index.tsx:
+      #3. Now we can open Chrome popup-window and we will see <u>Hi</u>. Let's change <u>index.tsx</u>:
     </Paragraph>
     <Highlight {...opts}>{code2}</Highlight>
     <Paragraph>
-      We will see <b>Welcome Dear Visitor</b> text. This is because CRE updates extension on any change.
-      Now let's communicate with <b>background.js</b> using <b>chrome.runtime.sendMessage/onMessage</b> methods.
-      And also update Badge using <b>chrome.action.setBadgeText</b> method. In <b>ext/background.js</b> we will add background logic:
+      #4. We will see <u>Welcome Dear Visitor</u> text. This is because CRE updates extension on any change.
+      Now let's interact with <u>background.js</u> and update Badge. In <u>ext/background.js</u> we will add:
     </Paragraph>
     <Highlight {...opts}>{code3}</Highlight>
     <Paragraph>
-      And also update index.tsx:
+      #5. And update index.tsx:
     </Paragraph>
     <Highlight {...opts}>{code4}</Highlight>
     <Paragraph>
-      In Chrome popup-window we will see <b>hello from background.js</b> text and badge set to 123
+      #6. In Chrome popup-window we will see <u>hello from background.js</u> text and Badge set to 123
     </Paragraph>
-    <h2>Conclusion</h2>
-    <div>
-      CRE is a simple tool that gives ability to:
-    </div>
-    <ul style={{listStyle: 'none'}}>
-      <li>Create default extension in ext folder</li>
-      <li>Use React/TypeScript</li>
-      <li>Automatically update extension in ext folder on any chandes in code</li>
-      <li>Simply load the extension in Google Chrome from ext folder</li>
-    </ul>
+    <Paragraph>{}</Paragraph>
   </div>
 }
 

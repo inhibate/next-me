@@ -3,6 +3,10 @@ import React from 'react'
 
 export default () => {
   return <div className={styles.desc}>
-    <b>Mario game using HTML5 Canvas</b>. Still under development. But first 2 levels available! Play <a href='https://prg938.github.io/mariogame' target='_blank'>HERE</a>
+    <b>Mario game using JavaScript and HTML5 Canvas</b>.
+    <br />
+    2 levels ready to be played! Other levels still under development😎
+    <br />
+    Play <a href='https://prg938.github.io/mariogame' target='_blank'>HERE</a>
   </div>
 }

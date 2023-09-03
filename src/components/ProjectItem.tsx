@@ -27,7 +27,7 @@ const resolvePreview = (previewSize: [number, number], preview: string) => {
     </video>
   }
   else if (preview === 'default') {
-    return <DefaultPreviewSVG W={W} H={H} />
+    return <DefaultPreviewSVG W={16} H={16} />
   }
   else {
     return getImage(W, H, preview)
@@ -43,12 +43,9 @@ const ProjectItem: FunctionComponent<Partial<ProjectItem>> = ({
 }) => {
   const Desc = descComponents[mappedComponent as keyof typeof descComponents]
   return <div className={styles.item}>
-    <h4 style={{fontSize: '30px', textTransform: 'uppercase'}}>
-      {repoName}
-    </h4>
     <div>
-      <b>Repository: </b>
-      <a target="_blank" href={repoLink}>{repoLink!.slice(8)}</a>
+      <div>project: {repoName} </div>
+      <div>github: <a target="_blank" href={repoLink}>{repoLink!.slice(26)}</a></div>
     </div>
     <div>{resolvePreview(previewSize!, preview)}</div>
     <Desc />
