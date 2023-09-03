@@ -1,0 +1,65 @@
+[
+  {
+    "id": "mariogame",
+    "preview": "https://user-images.githubusercontent.com/7237762/223578682-67f165f4-6d51-423a-9740-96fb184dfe63.mp4",
+    "previewSize": [451, 326],
+    "repoName": "Mario game",
+    "repoLink": "https://github.com/prg938/mariogame",
+    "shortDesc": "Mario game using Canvas. 2 levels ready to be played! Other levels still under development😎",
+    "mappedComponent": "MarioGameDesc"
+  },
+  {
+    "id": "chrome-weather",
+    "preview": "https://user-images.githubusercontent.com/7237762/229301735-0ba10058-6239-4417-b8c0-8aa001aa7388.gif",
+    "previewSize": [456, 412],
+    "repoName": "chrome weather",
+    "repoLink": "https://github.com/prg938/chrome-weather",
+    "shortDesc": "Weather extension for Chrome written on TypeScript / React / CRE",
+    "mappedComponent": "ChromeWeatherDesc"
+  },
+  {
+    "id": "masonrylayout-tsx-react",
+    "preview": "https://user-images.githubusercontent.com/7237762/244848390-2b435ea0-63e1-456b-affe-9c6ba3f169e9.png",
+    "previewSize": [109, 109],
+    "repoName": "masonry layout",
+    "repoLink": "https://github.com/prg938/masonrylayout-tsx-react",
+    "shortDesc": "Masonry layout implementation",
+    "mappedComponent": "MasonryLayoutDesc"
+  },
+  {
+    "id": "next-summary",
+    "preview": "default",
+    "previewSize": [32, 32],
+    "repoName": "next summary",
+    "repoLink": "https://github.com/prg938/next-summary",
+    "shortDesc": "This site with Next",
+    "mappedComponent": "NextSummaryDesc"
+  },
+  {
+    "id": "wsp",
+    "preview": "default",
+    "previewSize": [32, 32],
+    "repoName": "wsp",
+    "repoLink": "https://github.com/prg938/wsp",
+    "shortDesc": "external-scripts ⇒ inline-scripts (webpack plugin)",
+    "mappedComponent": "WspDesc"
+  },
+  {
+    "id": "rwav",
+    "preview": "default",
+    "previewSize": [32, 32],
+    "repoName": "rwav",
+    "repoLink": "https://github.com/prg938/rwav",
+    "shortDesc": "Read wav using node.js",
+    "mappedComponent": "RWavDesc"
+  },
+  {
+    "id": "cre",
+    "preview": "default",
+    "previewSize": [32, 32],
+    "repoName": "CRE",
+    "repoLink": "https://github.com/prg938/cre",
+    "shortDesc": "Bootstrap new Google Chrome extension fast. Write code using TypeScript / React",
+    "mappedComponent": "CreDesc"
+  }
+]

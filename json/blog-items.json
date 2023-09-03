@@ -1,0 +1,23 @@
+[
+  {
+    "id": "facebook-blocked-account",
+    "date": "19.07.2023",
+    "title": "Facebook заблокировал акк",
+    "tags": ["#новости"],
+    "mappedComponent": "FacebookBlockedAccount"
+  },
+  {
+    "id": "disqus-react-and-color-scheme",
+    "date": "10.07.2023",
+    "title": "Не работает color-scheme в disqus-react 🤔",
+    "tags": ["#react", "#stackoverflow"],
+    "mappedComponent": "DisqusReactWithColorScheme"
+  },
+  {
+    "id": "about",
+    "date": "01.07.2023",
+    "title": "Пост #1",
+    "tags": ["#новости"],
+    "mappedComponent": "AboutBlogDesc"
+  }
+]

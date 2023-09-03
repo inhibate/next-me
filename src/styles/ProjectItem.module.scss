@@ -1,0 +1,24 @@
+
+.item {
+  >div {
+    margin: 10px 0;
+  }
+  img, 
+  video {
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+  img[alt$="7388.gif"] {
+    width: 295px;
+    height: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  video {
+    width: 100%;
+    border: 1px solid transparent;
+    background: black;
+  }
+}
