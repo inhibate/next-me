@@ -40,7 +40,7 @@ const Background: FunctionComponent = () => {
 
 const Location: FunctionComponent = () => {
   return <div>
-    <h3>Location: Russia, Moscow/Obninsk </h3>
+    <h3>I'm from: Russia, Moscow/Obninsk </h3>
   </div>
 }
 
