@@ -41,6 +41,8 @@ const Background: FunctionComponent = () => {
 const Location: FunctionComponent = () => {
   return <div>
     <b>I'm from: </b>Russia, Moscow/Obninsk
+    <br/>
+    <b>Birthdate: </b>August 21/93
   </div>
 }
 
