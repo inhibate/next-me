@@ -34,7 +34,7 @@ const Me: FunctionComponent = () => {
 
 const Background: FunctionComponent = () => {
   return <div className={styles.background}>
-    <h3>Background/Education: <a href="http://eng.iate.obninsk.ru" target="_blank">OINPE</a></h3>
+    <h3>Background/Education: <a href="http://eng.iate.obninsk.ru" target="_blank">OINPE NRNU MEPhI</a></h3>
   </div>
 }
 
@@ -50,21 +50,21 @@ const WorkExperience: FunctionComponent = () => {
     <ul>
       <li>
         <div>
-          <h2>2019 — Oct 4/2021🥤Frontend Developer (React)</h2>
+          <h2>2019 — Oct 4/2021 — Frontend Developer (React)</h2>
         </div>
         <div>
           <b>at <a href="http://www.autoklad.ua" target='_blank'>remote/AUTOCLAD</a></b>
         </div>
         <div>
           <ul>
-            <li>Creating/Updating logic using React for admin-panel</li>
-            <li>Backend interaction using REST API (RoR + Postgres)</li>
+            <li>🥤 Creating/Updating logic using React for admin-panel</li>
+            <li>🥤 Backend interaction using REST API (RoR + Postgres)</li>
           </ul>
         </div>
       </li>
       <li>
         <div>
-          <h2>2016 — Aug 21/2018🥤Frontend Developer (React)</h2>
+          <h2>2016 — Aug 21/2018 — Frontend Developer (React)</h2>
         </div>
         <div>
           <b>at <a href="http://altinet.ua" target='_blank'>remote/ALTINET</a></b>
@@ -76,14 +76,14 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <ul>
-            <li>Programming new logic using React</li>
-            <li>Editing/Updating existing logic using React</li>
+            <li>🥤 Programming new logic using React</li>
+            <li>🥤 Editing/Updating existing logic using React</li>
           </ul>
         </div>
       </li>
       <li>
         <div>
-          <h2>2015 — Jun 11/2016🥤Frontend-developer (Angular 1 & React)</h2>
+          <h2>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React)</h2>
         </div>
         <div>
           <b>at </b>
@@ -98,13 +98,13 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <ul>
-            <li>Programming new logic for admin-panel using Angular 1 & React</li>
-            <li>Editing/Updating existing logic</li>
-            <li>Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
-            <li>Implementing client-routing for entities</li>
-            <li>Implementing i18n for 3 languages</li>
-            <li>Resolving incoming bugs</li>
-            <li>Integrating external components (WYSIWYG-editor / file-uploader)</li>
+            <li>🥤 Programming new logic for admin-panel using Angular 1 & React</li>
+            <li>🥤 Editing/Updating existing logic</li>
+            <li>🥤 Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
+            <li>🥤 Implementing client-routing for entities</li>
+            <li>🥤 Implementing i18n for 3 languages</li>
+            <li>🥤 Resolving incoming bugs</li>
+            <li>🥤 Integrating external components (WYSIWYG-editor / file-uploader)</li>
           </ul>
         </div>
       </li>
