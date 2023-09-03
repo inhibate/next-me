@@ -40,7 +40,7 @@ const Background: FunctionComponent = () => {
 
 const Location: FunctionComponent = () => {
   return <div>
-    <h3>🥤Location: Russia, Moscow/Obninsk </h3>
+    <h3>Location: Russia, Moscow/Obninsk </h3>
   </div>
 }
 
@@ -50,88 +50,57 @@ const WorkExperience: FunctionComponent = () => {
     <ul>
       <li>
         <div>
-          <h2>Frontend Developer (React)</h2>
+          <h2>2019 — Oct 4/2021🥤Frontend Developer (React)</h2>
         </div>
         <div>
-          <b>At </b>
-          <a href="http://www.autoklad.ua" target='_blank'>remote/AUTOCLAD</a>
-        </div>
-        <div>
-          <b>Time: </b>
-          <span>2019 — Oct 4/2021</span>
+          <b>at <a href="http://www.autoklad.ua" target='_blank'>remote/AUTOCLAD</a></b>
         </div>
         <div>
           <ul>
-            <li>Creating/Updating business-logic using React for admin-panel</li>
-            <li>Database interaction using REST API</li>
+            <li>Creating/Updating logic using React for admin-panel</li>
+            <li>Backend interaction using REST API (RoR + Postgres)</li>
           </ul>
         </div>
       </li>
       <li>
         <div>
-          <h2>Frontend Developer (React)</h2>
+          <h2>2016 — Aug 21/2018🥤Frontend Developer (React)</h2>
         </div>
         <div>
-          <b>At </b>
-          <a href="http://altinet.ua" target='_blank'>remote/ALTINET</a>
+          <b>at <a href="http://altinet.ua" target='_blank'>remote/ALTINET</a></b>
         </div>
         <div>
-          <b>Time: </b>
-          <span>2016 — Aug 21/2018</span>
-        </div>
-        <div>
-          <span>
-            <b>Team: </b>
-          </span>
-          <span>
-            <a href="https://github.com/sergeda" target="_blank">Serhii Dashko</a>
-            <span>&nbsp;&nbsp;</span>
-          </span>
-          <span>
-            <a href="https://github.com/prg938" target="_blank">ME</a>
-            <span>&nbsp;&nbsp;</span>
-          </span>
+          <b>team  
+          <a href="https://github.com/sergeda" target="_blank"> Serhii Dashko - </a>
+          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov </a></b>
         </div>
         <div>
           <ul>
-            <li>Creating new business-logic using React</li>
-            <li>Updating existing business-logic using React</li>
+            <li>Programming new logic using React</li>
+            <li>Editing/Updating existing logic using React</li>
           </ul>
         </div>
       </li>
       <li>
         <div>
-          <h2>Frontend-developer (Angular 1 & React)</h2>
+          <h2>2015 — Jun 11/2016🥤Frontend-developer (Angular 1 & React)</h2>
         </div>
         <div>
-          <b>At </b>
+          <b>at </b>
           <a href="https://vk.com/tovarovoz" target='_blank'>remote/TOVAROVOZ</a>
         </div>
         <div>
-          <b>Time: </b>
-          <span>2015 — Jun 11/2016</span>
-        </div>
-        <div>
-          <span>
-            <b>Team: </b>
-          </span>
-          <span>
-            <a href="https://github.com/sergeda" target="_blank">Serhii Dashko</a>
-            <span>&nbsp;&nbsp;</span>
-          </span>
-          <span>
-            <a href="https://github.com/prg938" target="_blank">ME</a>
-            <span>&nbsp;&nbsp;</span>
-          </span>
-          <span>
-            <a href="https://gitlab.com/bhingoleramdas143" target="_blank">Ramdas Bhingole</a>
-            <span>&nbsp;&nbsp;</span>
-          </span>
+          <b>team  
+          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov - </a></b>
+          <a href="https://gitlab.com/bhingoleramdas143" target="_blank"> Ramdas Bhingole - </a>
+          <a href="https://github.com/sergeda" target="_blank">  Serhii Dashko </a>
+          
         </div>
         <div>
           <ul>
-            <li>Creating/Updating business-logic using Angular 1 & React for admin-panel</li>
-            <li>Implementing CRUD logic interacting with REST API</li>
+            <li>Programming new logic for admin-panel using Angular 1 & React</li>
+            <li>Editing/Updating existing logic</li>
+            <li>Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
             <li>Implementing client-routing for entities</li>
             <li>Implementing i18n for 3 languages</li>
             <li>Resolving incoming bugs</li>
@@ -146,43 +115,9 @@ const WorkExperience: FunctionComponent = () => {
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
     <h3>Stack:</h3>
-    <ul>
-      <li><b>Frontend:</b></li>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>MUI</li>
-      <li>Antd</li>
-      <li>RTK</li>
-      <li>RTK Query</li>
-      <li>Next.js</li>
-      <li>SWR</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>Sass preprocessor</li>
-      <li>Webpack</li>
-      <li>-</li>
-      <li><b>Backend (Junior):</b></li>
-      <li>REST</li>
-      <li>HTTP/WS Protocols</li>
-      <li>Node.js</li>
-      <li>TypeScript</li>
-      <li>Nest</li>
-      <li>TypeORM</li>
-      <li>Postgres</li>
-      <li>Swagger</li>
-      <li>-</li>
-      <li><b>Editors:</b></li>
-      <li>VS Code</li>
-      <li>-</li>
-      <li><b>VCS:</b></li>
-      <li>Git</li>
-      <li>-</li>
-      <li><b>Services:</b></li>
-      <li>Github</li>
-      <li>Gitlab</li>
-    </ul>
+    <div className={styles.skill}><b>Frontend:</b> JavaScript ◌ TypeScript ◌ React ◌ Redux ◌ MUI ◌ Antd ◌ RTK ◌ RTK Query ◌ Next.js ◌ SWR ◌ HTML5 ◌ CSS3 ◌ Sass preprocessor ◌ Webpack.</div>
+    <div className={styles.skill}><b>Backend:</b> REST ◌ HTTP/WS Protocols ◌ node.js ◌ TypeScript ◌ Nest ◌ TypeORM ◌ Postgres ◌ Swagger.</div>
+    <div className={styles.skill}><b>Editors:</b> VS Code <b>Services:</b> Github/Gitlab <b>VCS:</b> Git </div>
   </div>
 }
 
@@ -206,10 +141,8 @@ const IndexPage: FunctionComponent = props => {
         <Location />
         <Me />
         <Background />
-        <div className={styles.skillsetWorkExperienceGroup}>
-          <WorkExperience />
-          <Stack />
-        </div>
+        <Stack />
+        <WorkExperience />
       </main>
     </>
   )

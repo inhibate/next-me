@@ -1,17 +1,14 @@
 import React, {useEffect, FunctionComponent} from "react"
 import styles from '@/styles/CityGallery.module.scss'
 import Image from 'next/image'
-import city1 from '@/../public/mycity/1.jpg'
-import city2 from '@/../public/mycity/2.jpg'
-import city3 from '@/../public/mycity/3.jpeg'
-import city6 from '@/../public/mycity/6.jpg'
-import city7 from '@/../public/mycity/7.jpg'
+import pic1 from '@/../public/mycity/1.jpg'
+import pic2 from '@/../public/mycity/2.jpg'
 
 enum ArrowType {L, R}
 
 const CityGallery: FunctionComponent = () => {
   const [currentImageIndex, setImageIndex] = React.useState<number>(0)
-  const sityImages = [[city1, ''], [city2, ''], [city3, ''], [city7, ''], [city6, '']]
+  const sityImages = [[pic1, ''], [pic2, '']]
   const currentImage = sityImages[currentImageIndex]
   let timeoutId: Parameters<typeof clearTimeout>[0] = undefined
 
@@ -37,7 +34,7 @@ const CityGallery: FunctionComponent = () => {
     timeoutId = setTimeout(() => {
       if (currentImageIndex === sityImages.length - 1) setImageIndex(0)
       else setImageIndex(currentImageIndex + 1)
-    }, 4000)
+    }, 10000)
     return () => {
       clearTimeout(timeoutId)
     }

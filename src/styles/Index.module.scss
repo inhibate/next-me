@@ -7,9 +7,6 @@ $max-width: 750px;
   li {
     list-style: none;
   }
-
-  .me {
-  }
   
   .contacts {
     b {
@@ -17,25 +14,12 @@ $max-width: 750px;
       font-size: 11px;
     }
   }
-  
-  .skillset {
-    font-size: 14px;
-  }
 
-  .skillsetWorkExperienceGroup {
-    display: flex;
-    justify-content: space-between;
-    @media screen and (max-width: $max-width) {
-      flex-direction: column;
-      gap: 50px;
-    }
+  .skill {
+    margin: 10px 0;
   }
 
   .workExperience {
-    font-size: 13px;
-    h3 {
-      font-size: 16px;
-    }
     >ul>li {
       margin-top: 20px;
       padding-right: 20px;
