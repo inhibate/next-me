@@ -11,10 +11,13 @@ $max-width: 550px;
   .flexWrapper {
     display: flex;
     > img:first-child {
-      width: 180px;
-      height: auto;
+      width: auto;
+      height: 190px;
       border-radius: 16px;
       margin-right: 20px;
+    }
+    > img:last-child {
+      border-radius: 16px;
     }
     @media screen and (max-width: $max-width) {
       justify-content: center;
