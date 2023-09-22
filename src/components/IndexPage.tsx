@@ -127,7 +127,7 @@ const IndexPage: FunctionComponent = props => {
         <Me />
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prg938&layout=compact&hide_border=true&theme=dark&langs_count=8" />
+          <object type="image/svg+xml" data="https://github-readme-stats.vercel.app/api/top-langs/?username=prg938&layout=compact&hide_border=true&theme=dark&langs_count=6" />
         </div>
         <Location />
         <Background />
