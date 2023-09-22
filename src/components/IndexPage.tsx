@@ -13,7 +13,7 @@ const Me: FunctionComponent = () => {
       <h1><b>IVAN PAKOV</b></h1>
     </div>
     <div className={styles.contacts}>
-      <h2 style={{color: 'rebeccapurple', marginBottom: 20}}>Fullstack Developer (Next.js / Nest.js / TypeScript)</h2>
+      <h2 style={{marginBottom: 20}}>Fullstack Developer (next.js / nest.js / typescript)</h2>
       <ul>
         <li>
           <span>Telegram: </span>
