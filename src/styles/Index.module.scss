@@ -18,6 +18,7 @@ $max-width: 550px;
       margin-right: 20px;
     }
     > object {
+      max-height: 140px;
       border-radius: 16px;
     }
     @media screen and (max-width: $max-width) {
