@@ -63,7 +63,7 @@ const Component: DescComponent<{}> = () => {
   const opts = {...colorScheme, language: colorScheme?.theme !== ColorSchemes.Text ? 'typescript' : undefined, showLineNumbers: false}
   return <>
     <Paragraph>🐻 Bear necessities for state management in React!</Paragraph>
-    <Paragraph>C 2023 года <a href='https://github.com/pmndrs/zustand' target='_blank'>zustand</a> довольно трендовая state-management библиотека с <a href='https://github.com/reduxjs/redux-toolkit' target='_blank'>Redux Toolkit</a> в экосистеме React.</Paragraph>
+    <Paragraph>C 2023 года <a href='https://github.com/pmndrs/zustand' target='_blank'>zustand</a> довольно трендовая state-management библиотека наравне с <a href='https://github.com/reduxjs/redux-toolkit' target='_blank'>Redux Toolkit</a> в экосистеме React.</Paragraph>
     <Paragraph>Вот пример использования. Что будет в консоли при рендеринге Component?</Paragraph>
     <Highlight {...opts}>{code1}</Highlight>
     <Highlight {...opts}>{code2}</Highlight>
