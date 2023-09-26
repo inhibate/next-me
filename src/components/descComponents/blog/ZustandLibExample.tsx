@@ -68,7 +68,9 @@ const Component: DescComponent<{}> = () => {
     <Highlight {...opts}>{code1}</Highlight>
     <Highlight {...opts}>{code2}</Highlight>
     <Paragraph>Тестим:</Paragraph>
-    <iframe width="639" height="360" src="https://www.youtube.com/embed/_suNPuzx_eg" title="React + zustand state-management lib. Rendering optimization example" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    <Paragraph>
+      <iframe width="100%" height="260" src="https://www.youtube.com/embed/_suNPuzx_eg" title="React + zustand state-management lib. Rendering optimization example" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    </Paragraph>
     <Paragraph>
       <pre>{output}</pre>
     </Paragraph>
