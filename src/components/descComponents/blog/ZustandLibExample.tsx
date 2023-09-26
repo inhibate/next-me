@@ -62,8 +62,9 @@ const Component: DescComponent<{}> = () => {
   const colorScheme = useColorScheme()
   const opts = {...colorScheme, language: colorScheme?.theme !== ColorSchemes.Text ? 'typescript' : undefined, showLineNumbers: false}
   return <>
-    <Paragraph>React + zustand</Paragraph>
-    <Paragraph>Что будет в консоли при рендеринге Component?</Paragraph>
+    <Paragraph>🐻 Bear necessities for state management in React!</Paragraph>
+    <Paragraph>C 2023 года <a href='https://github.com/pmndrs/zustand' target='_blank'>zustand</a> довольно трендовая state-management библиотека с <a href='https://github.com/reduxjs/redux-toolkit' target='_blank'>Redux Toolkit</a> в экосистеме React.</Paragraph>
+    <Paragraph>Вот пример использования. Что будет в консоли при рендеринге Component?</Paragraph>
     <Highlight {...opts}>{code1}</Highlight>
     <Highlight {...opts}>{code2}</Highlight>
     <Paragraph>Тестим:</Paragraph>
@@ -71,9 +72,11 @@ const Component: DescComponent<{}> = () => {
     <Paragraph>
       <pre>{output}</pre>
     </Paragraph>
-    <Paragraph>Как можно видеть zustand старается не делать лишних рендеров при обновлении компоненов</Paragraph>
+    <Paragraph>как можно видеть zustand старается не делать лишних рендеров при обновлении компоненов</Paragraph>
+    <Paragraph>+не нужно оборачивать в Context Provider</Paragraph>
+    <Paragraph>+нет boilderplate-кода</Paragraph>
   </>
 }
-Component.shortDesc = 'React + zustand state-management lib. Что будет в консоли?'
+Component.shortDesc = 'Что будет в консоли?'
 
 export default Component
