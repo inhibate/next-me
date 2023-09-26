@@ -1,5 +1,12 @@
 [
   {
+    "id": "zustand-render-optimization",
+    "date": "26.09.2023",
+    "title": "#4. React + zustand state-management lib. Что будет в консоли?",
+    "tags": ["#новости"],
+    "mappedComponent": "ZustandLibExample"
+  },
+  {
     "id": "facebook-blocked-account",
     "date": "19.07.2023",
     "title": "#3. Facebook заблокировал",
