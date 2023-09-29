@@ -40,9 +40,9 @@ const Background: FunctionComponent = () => {
 
 const Location: FunctionComponent = () => {
   return <div>
-    <b>location: </b>Russia, Moscow/Obninsk
+    <b>location: </b>Russia, Moscow/Kaluga
     <br/>
-    <b>b-date: </b>August 21/93 (29yo)
+    <b>b-date: </b>August 21/93
   </div>
 }
 
@@ -127,7 +127,6 @@ const IndexPage: FunctionComponent = props => {
         <Me />
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
-          <object type="image/svg+xml" data="https://github-readme-stats.vercel.app/api/top-langs/?username=prg938&layout=compact&hide_border=true&theme=dark&langs_count=4" />
         </div>
         <Location />
         <Background />
