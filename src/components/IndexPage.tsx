@@ -26,10 +26,10 @@ const Background: FunctionComponent = () => {
 
 const Info: FunctionComponent = () => {
   return <div>
-    <h3>Location: Russia, Moscow/Kaluga</h3>
-    <h3>Birthdate: August 21/93</h3>
-    <h3>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h3>
-    <h3>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h3>
+    <h4 style={{fontWeight: 400}}>Location: Russia, Moscow/Kaluga</h4>
+    <h4 style={{fontWeight: 400}}>Birthdate: August 21/93</h4>
+    <h4>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <h4>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
   </div>
 }
 
