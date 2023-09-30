@@ -82,7 +82,7 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h4>2017 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+            <h4>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
           </div>
           <div className={styles.list}>
             <ul>
