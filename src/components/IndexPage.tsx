@@ -34,7 +34,7 @@ const Me: FunctionComponent = () => {
 
 const Background: FunctionComponent = () => {
   return <div className={styles.background}>
-    <h3>Background/Education: <a href="http://eng.iate.obninsk.ru" target="_blank">OINPE NRNU MEPhI</a></h3>
+    <h3>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">OINPE NRNU MEPhI</a></h3>
   </div>
 }
 
@@ -56,8 +56,8 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div className={styles.list}>
           <ul>
-            <li>🥤 Creating/Updating logic using React for admin-panel</li>
-            <li>🥤 Backend interaction using REST API (RoR + Postgres)</li>
+            <li>Creating/Updating logic using React for admin-panel</li>
+            <li>Backend interaction using REST API (RoR + Postgres)</li>
           </ul>
         </div>
       </li>
@@ -66,14 +66,14 @@ const WorkExperience: FunctionComponent = () => {
           <h4>2016 — Aug 21/2018 Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
         </div>
         <div>
-          <b>team:  
+          <b>TEAM:  
           <a href="https://github.com/sergeda" target="_blank"> Serhii Dashko - </a>
           <a href="https://github.com/prg938" target="_blank"> Ivan Pakov </a></b>
         </div>
         <div className={styles.list}>
           <ul>
-            <li>🥤 Programming new logic using React</li>
-            <li>🥤 Editing/Updating existing logic using React</li>
+            <li>Programming new logic using React</li>
+            <li>Editing/Updating existing logic using React</li>
           </ul>
         </div>
       </li>
@@ -82,20 +82,20 @@ const WorkExperience: FunctionComponent = () => {
           <h4>2015 — Jun 11/2016 Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
         </div>
         <div>
-          <b>team:  
+          <b>TEAM:  
           <a href="https://github.com/prg938" target="_blank"> Ivan Pakov - </a></b>
           <a href="https://gitlab.com/bhingoleramdas143" target="_blank"> Ramdas Bhingole - </a>
           <a href="https://github.com/sergeda" target="_blank">  Serhii Dashko </a>
         </div>
         <div className={styles.list}>
           <ul>
-            <li>🥤 Programming new logic for admin-panel using Angular 1 & React</li>
-            <li>🥤 Editing/Updating existing logic</li>
-            <li>🥤 Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
-            <li>🥤 Implementing client-routing for entities</li>
-            <li>🥤 Implementing i18n for 3 languages</li>
-            <li>🥤 Resolving incoming bugs</li>
-            <li>🥤 Integrating external components (WYSIWYG-editor / file-uploader)</li>
+            <li>Programming new logic for admin-panel using Angular 1 & React</li>
+            <li>Editing/Updating existing logic</li>
+            <li>Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
+            <li>Implementing client-routing for entities</li>
+            <li>Implementing i18n for 3 languages</li>
+            <li>Resolving incoming bugs</li>
+            <li>Integrating external components (WYSIWYG-editor / file-uploader)</li>
           </ul>
         </div>
       </li>
