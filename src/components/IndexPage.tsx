@@ -39,7 +39,7 @@ const WorkExperience: FunctionComponent = () => {
   const sergeda = <a href="https://github.com/sergeda" target="_blank"><img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
   const prg938 = <a href="https://github.com/prg938" target="_blank"><img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
   return <div className={styles.workExperience}>
-    <h3 style={{fontSize: 80, marginLeft: -6}}>&lt;Experience/&gt;</h3>
+    <h3 style={{fontSize: 60, marginLeft: -6}}>Experience:</h3>
     <ul>
       <li>
         <div style={{fontSize: 100}}>3</div>
