@@ -14,20 +14,8 @@ const Me: FunctionComponent = () => {
     </div>
     <div className={styles.contacts}>
       <h2 style={{marginBottom: 20}}>Fullstack Developer (next.js / nest.js / typescript)</h2>
-      <ul>
-        <li>
-          <b>Telegram: </b>
-          <a href="https://t.me/prg938" target="_blank">
-            <b>prg938</b>
-          </a>
-        </li>
-        <li>
-          <b>Email: </b>
-          <a href="mailto:prg938@mail.ru" target="_blank">
-            <b>prg938@mail.ru</b>
-          </a>
-        </li>
-      </ul>
+      <h3>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h3>
+      <h3>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h3>
     </div>
   </div>
 }
@@ -145,8 +133,8 @@ const IndexPage: FunctionComponent = props => {
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
         </div>
-        <Me />
         <Location />
+        <Me />
         <Background />
         <Stack />
         <WorkExperience />
