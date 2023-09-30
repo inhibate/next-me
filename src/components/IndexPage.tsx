@@ -78,25 +78,34 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div>
-          <h4>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
+        <div style={{fontSize: 100}}>1</div>
+        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+          TEAM:
+          <a href="https://gitlab.com/bhingoleramdas143" target="_blank">
+            <img width="100" height="100" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' />
+          </a>
+          <a href="https://github.com/sergeda" target="_blank">
+            <img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' />
+          </a>
+          <a href="https://github.com/prg938" target="_blank">
+            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
+          </a>
         </div>
         <div>
-          <b>TEAM:  
-          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov + </a></b>
-          <a href="https://gitlab.com/bhingoleramdas143" target="_blank"> Ramdas Bhingole + </a>
-          <a href="https://github.com/sergeda" target="_blank">  Serhii Dashko </a>
-        </div>
-        <div className={styles.list}>
-          <ul>
-            <li>Programming new logic for admin-panel using Angular 1 & React</li>
-            <li>Editing/Updating existing logic</li>
-            <li>Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
-            <li>Implementing client-routing for entities</li>
-            <li>Implementing i18n for 3 languages</li>
-            <li>Resolving incoming bugs</li>
-            <li>Integrating external components (WYSIWYG-editor / file-uploader)</li>
-          </ul>
+          <div>
+            <h4>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
+          </div>
+          <div className={styles.list}>
+            <ul>
+              <li>◌ Programming new logic for admin-panel using Angular 1 & React</li>
+              <li>◌ Editing/Updating existing logic</li>
+              <li>◌ Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
+              <li>◌ Implementing client-routing for entities</li>
+              <li>◌ Implementing i18n for 3 languages</li>
+              <li>◌ Resolving incoming bugs</li>
+              <li>◌ Integrating external components (WYSIWYG-editor / file-uploader)</li>
+            </ul>
+          </div>
         </div>
       </li>
     </ul>
