@@ -47,16 +47,24 @@ const Location: FunctionComponent = () => {
 }
 
 const WorkExperience: FunctionComponent = () => {
+  const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}
+  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank">
+    <img width="100" height="100" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' />
+  </a>
+  const sergeda = <a href="https://github.com/sergeda" target="_blank">
+    <img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' />
+  </a>
+  const prg938 = <a href="https://github.com/prg938" target="_blank">
+    <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
+  </a>
   return <div className={styles.workExperience}>
     <h3>Experience:</h3>
     <ul>
       <li>
         <div style={{fontSize: 100}}>3</div>
-        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+        <div style={teamStyle}>
           TEAM:
-          <a href="https://github.com/prg938" target="_blank">
-            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
-          </a>
+          {prg938}
           +unknown
         </div>
         <div>
@@ -69,18 +77,14 @@ const WorkExperience: FunctionComponent = () => {
               <li>◌ Backend interaction using REST API (RoR + Postgres)</li>
             </ul>
           </div>
-        <div>
+        </div>
       </li>
       <li>
         <div style={{fontSize: 100}}>2</div>
-        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+        <div style={teamStyle}>
           TEAM:
-          <a href="https://github.com/sergeda" target="_blank">
-            <img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' />
-          </a>
-          <a href="https://github.com/prg938" target="_blank">
-            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
-          </a>
+          {sergeda}
+          {prg938}
         </div>
         <div>
           <div>
@@ -96,17 +100,11 @@ const WorkExperience: FunctionComponent = () => {
       </li>
       <li>
         <div style={{fontSize: 100}}>1</div>
-        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+        <div style={teamStyle}>
           TEAM:
-          <a href="https://gitlab.com/bhingoleramdas143" target="_blank">
-            <img width="100" height="100" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' />
-          </a>
-          <a href="https://github.com/sergeda" target="_blank">
-            <img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' />
-          </a>
-          <a href="https://github.com/prg938" target="_blank">
-            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
-          </a>
+          {bhingoleramdas143}
+          {sergeda}
+          {prg938}
         </div>
         <div>
           <div>
