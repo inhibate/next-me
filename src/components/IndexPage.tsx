@@ -16,13 +16,13 @@ const Me: FunctionComponent = () => {
       <h2 style={{marginBottom: 20}}>Fullstack Developer (next.js / nest.js / typescript)</h2>
       <ul>
         <li>
-          <span>telegram: </span>
+          <b>Telegram: </b>
           <a href="https://t.me/prg938" target="_blank">
             <b>prg938</b>
           </a>
         </li>
         <li>
-          <span>email: </span>
+          <b>Email: </b>
           <a href="mailto:prg938@mail.ru" target="_blank">
             <b>prg938@mail.ru</b>
           </a>
@@ -42,7 +42,7 @@ const Location: FunctionComponent = () => {
   return <div>
     <b>location: </b>Russia, Moscow/Kaluga
     <br/>
-    <b>b-date: </b>August 21/93
+    <b>bdate: </b>August 21/93
   </div>
 }
 
