@@ -16,7 +16,7 @@ const Me: FunctionComponent = () => {
       <h2>Fullstack Developer (next.js / nest.js / typescript)</h2>
     </div>
     <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
-    <h4>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <h4>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a> (preferable)</h4>
   </div>
 }
 
