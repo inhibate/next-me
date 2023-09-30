@@ -63,7 +63,7 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h4>2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h4>
+            <h2>◌ 2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h2>
           </div>
           <div className={styles.list}>
             <ul>
@@ -82,7 +82,7 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h4>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+            <h2>◌ 2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h2>
           </div>
           <div className={styles.list}>
             <ul>
@@ -102,7 +102,7 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h4>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
+            <h2>◌ 2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h2>
           </div>
           <div className={styles.list}>
             <ul>
