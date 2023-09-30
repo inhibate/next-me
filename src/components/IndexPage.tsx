@@ -42,7 +42,6 @@ const WorkExperience: FunctionComponent = () => {
     <h3 style={{fontSize: 60, marginLeft: -6}}>Experience:</h3>
     <ul>
       <li>
-        <div style={{fontSize: 100}}>3</div>
         <div style={teamStyle}>
           TEAM:
           {prg938}
@@ -61,7 +60,6 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div style={{fontSize: 100}}>2</div>
         <div style={teamStyle}>
           TEAM:
           {sergeda}
@@ -80,7 +78,6 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div style={{fontSize: 100}}>1</div>
         <div style={teamStyle}>
           TEAM:
           {bhingoleramdas143}
