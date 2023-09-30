@@ -24,7 +24,7 @@ const Background: FunctionComponent = () => {
   </div>
 }
 
-const Location: FunctionComponent = () => {
+const Info: FunctionComponent = () => {
   return <div>
     <h3>Location: Russia, Moscow/Kaluga</h3>
     <h3>Birthdate: August 21/93</h3>
@@ -129,11 +129,11 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
-        <Me />
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
         </div>
-        <Location />
+        <Me />
+        <Info />
         <Background />
         <Stack />
         <WorkExperience />
