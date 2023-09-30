@@ -52,7 +52,7 @@ const WorkExperience: FunctionComponent = () => {
     <ul>
       <li>
         <div>
-          <h4>2019 — Oct 4/2021 Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h4>
+          <h4>2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h4>
         </div>
         <div className={styles.list}>
           <ul>
@@ -63,11 +63,11 @@ const WorkExperience: FunctionComponent = () => {
       </li>
       <li>
         <div>
-          <h4>2016 — Aug 21/2018 Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+          <h4>2016 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
         </div>
         <div>
           <b>TEAM:  
-          <a href="https://github.com/sergeda" target="_blank"> Serhii Dashko - </a>
+          <a href="https://github.com/sergeda" target="_blank"> Serhii Dashko + </a>
           <a href="https://github.com/prg938" target="_blank"> Ivan Pakov </a></b>
         </div>
         <div className={styles.list}>
@@ -79,12 +79,12 @@ const WorkExperience: FunctionComponent = () => {
       </li>
       <li>
         <div>
-          <h4>2015 — Jun 11/2016 Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
+          <h4>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h4>
         </div>
         <div>
           <b>TEAM:  
-          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov - </a></b>
-          <a href="https://gitlab.com/bhingoleramdas143" target="_blank"> Ramdas Bhingole - </a>
+          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov + </a></b>
+          <a href="https://gitlab.com/bhingoleramdas143" target="_blank"> Ramdas Bhingole + </a>
           <a href="https://github.com/sergeda" target="_blank">  Serhii Dashko </a>
         </div>
         <div className={styles.list}>
