@@ -62,19 +62,26 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div>
-          <h4>2016 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+        <div style={{fontSize: 100}}>2</div>
+        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+          TEAM:
+          <a href="https://github.com/sergeda" target="_blank">
+            <img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' />
+          </a>
+          <a href="https://github.com/prg938" target="_blank">
+            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
+          </a>
         </div>
         <div>
-          <b>TEAM:  
-          <a href="https://github.com/sergeda" target="_blank"> Serhii Dashko + </a>
-          <a href="https://github.com/prg938" target="_blank"> Ivan Pakov </a></b>
-        </div>
-        <div className={styles.list}>
-          <ul>
-            <li>Programming new logic using React</li>
-            <li>Editing/Updating existing logic using React</li>
-          </ul>
+          <div>
+            <h4>2016 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+          </div>
+          <div className={styles.list}>
+            <ul>
+              <li>◌ Programming new logic using React</li>
+              <li>◌ Editing/Updating existing logic using React</li>
+            </ul>
+          </div>
         </div>
       </li>
       <li>
