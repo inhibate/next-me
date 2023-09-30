@@ -129,10 +129,10 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
+        <Me />
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
         </div>
-        <Me />
         <Info />
         <Background />
         <Stack />
