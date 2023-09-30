@@ -124,7 +124,7 @@ const WorkExperience: FunctionComponent = () => {
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
     <h3>Stack:</h3>
-    <div className={styles.skill}><b>Frontend:</b>Plain JavaScript ◌ TypeScript ◌ React ◌ Redux ◌ RTK ◌ RTK Query ◌ Zustand ◌ Next.js ◌ SWR ◌ HTML5 ◌ CSS3 ◌ MUI ◌ Antd ◌ Sass preprocessor ◌ Webpack.</div>
+    <div className={styles.skill}><b>Frontend:</b> Plain JavaScript ◌ TypeScript ◌ React ◌ Redux ◌ RTK ◌ RTK Query ◌ Zustand ◌ Next.js ◌ SWR ◌ HTML5 ◌ CSS3 ◌ MUI ◌ Antd ◌ Sass preprocessor ◌ Webpack.</div>
     <div className={styles.skill}><b>Backend:</b> REST ◌ HTTP/WS Protocols ◌ node.js ◌ TypeScript ◌ Nest ◌ TypeORM ◌ Postgres ◌ Swagger.</div>
     <div className={styles.skill}><b>Editors:</b> VS Code <b>Services:</b> Github/Gitlab <b>VCS:</b> Git </div>
   </div>
