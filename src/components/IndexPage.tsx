@@ -48,18 +48,28 @@ const Location: FunctionComponent = () => {
 
 const WorkExperience: FunctionComponent = () => {
   return <div className={styles.workExperience}>
-    <h3>Commercial experience:</h3>
+    <h3>Experience:</h3>
     <ul>
       <li>
+        <div style={{fontSize: 100}}>3</div>
+        <div style={{display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'}}>
+          TEAM:
+          <a href="https://github.com/prg938" target="_blank">
+            <img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' />
+          </a>
+          +unknown
+        </div>
         <div>
-          <h4>2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h4>
-        </div>
-        <div className={styles.list}>
-          <ul>
-            <li>Creating/Updating logic using React for admin-panel</li>
-            <li>Backend interaction using REST API (RoR + Postgres)</li>
-          </ul>
-        </div>
+          <div>
+            <h4>2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h4>
+          </div>
+          <div className={styles.list}>
+            <ul>
+              <li>◌ Creating/Updating logic using React for admin-panel</li>
+              <li>◌ Backend interaction using REST API (RoR + Postgres)</li>
+            </ul>
+          </div>
+        <div>
       </li>
       <li>
         <div style={{fontSize: 100}}>2</div>
@@ -74,7 +84,7 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h4>2016 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
+            <h4>2017 — Aug 21/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h4>
           </div>
           <div className={styles.list}>
             <ul>
