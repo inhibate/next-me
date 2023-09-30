@@ -13,9 +13,7 @@ const Me: FunctionComponent = () => {
       <h1><b>IVAN PAKOV</b></h1>
     </div>
     <div className={styles.contacts}>
-      <h2 style={{marginBottom: 20}}>Fullstack Developer (next.js / nest.js / typescript)</h2>
-      <h3>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h3>
-      <h3>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h3>
+      <h2>Fullstack Developer (next.js / nest.js / typescript)</h2>
     </div>
   </div>
 }
@@ -28,9 +26,10 @@ const Background: FunctionComponent = () => {
 
 const Location: FunctionComponent = () => {
   return <div>
-    <b>location: </b>Russia, Moscow/Kaluga
-    <br/>
-    <b>bdate: </b>August 21/93
+    <h3>Location: Russia, Moscow/Kaluga</h3>
+    <h3>Birthdate: August 21/93</h3>
+    <h3>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></h3>
+    <h3>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h3>
   </div>
 }
 
@@ -130,11 +129,11 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
+        <Me />
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
         </div>
         <Location />
-        <Me />
         <Background />
         <Stack />
         <WorkExperience />
