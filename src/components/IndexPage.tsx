@@ -2,6 +2,7 @@
 import React, {FunctionComponent, useEffect} from 'react'
 import styles from '@/styles/Index.module.scss'
 import meJPG from '@/../public/me.jpg'
+import muiimg from '@/../public/512x512.png'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,26 +11,19 @@ import CityGallery from './CityGallery'
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
     <div className={styles.hi}>
-      <h1><b>IVAN PAKOV</b></h1>
+      <h1><b>🥷IVAN PAKOV</b></h1>
     </div>
     <div className={styles.contacts}>
-      <h2>Fullstack Developer (next.js / nest.js / typescript)</h2>
+      <h2>JS/TS Fullstack Software developer / Russia</h2>
     </div>
-    <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
-    <h4>Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <h4 style={{marginTop: 15}}>Contact #1: Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
+    <h4>Contact #2: Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
   </div>
 }
 
 const Background: FunctionComponent = () => {
   return <div className={styles.background}>
     <h3>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
-  </div>
-}
-
-const Info: FunctionComponent = () => {
-  return <div>
-    <h4 style={{fontWeight: 400}}>Location: Russia, Moscow/Kaluga</h4>
-    <h4 style={{fontWeight: 400}}>Birthdate: August 21/93</h4>
   </div>
 }
 
@@ -107,10 +101,21 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3>Stack:</h3>
-    <div className={styles.skill}><b>Frontend:</b> Plain JavaScript ◌ TypeScript ◌ React ◌ Redux ◌ RTK ◌ RTK Query ◌ Zustand ◌ Next.js ◌ SWR ◌ HTML5 ◌ CSS3 ◌ MUI ◌ Antd ◌ Sass preprocessor ◌ Webpack.</div>
-    <div className={styles.skill}><b>Backend:</b> REST ◌ HTTP/WS Protocols ◌ node.js ◌ TypeScript ◌ Nest ◌ TypeORM ◌ Postgres ◌ Swagger.</div>
-    <div className={styles.skill}><b>Editors:</b> VS Code <b>Services:</b> Github/Gitlab <b>VCS:</b> Git </div>
+    <div className={styles.skill} style={{display: 'flex', alignItems: 'center', gap: 5, flexWrap: 'wrap'}}>
+      <h1 style={{maxWidth: 100}}>Main Stack: </h1>
+      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" />
+      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+      <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+      <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" />
+      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" />
+      <img  width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+
+    </div>
+    <h4 style={{fontWeight: 400}}>+: HTTP/WS, JWT, REST, <b>Type</b>ORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h4>
   </div>
 }
 
@@ -130,7 +135,6 @@ const IndexPage: FunctionComponent = props => {
         <div className={styles.flexWrapper}>
           <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
         </div>
-        <Info />
         <Background />
         <Stack />
         <WorkExperience />

@@ -2,7 +2,7 @@
   {
     "id": "zustand-render-optimization",
     "date": "26.09.2023",
-    "title": "#4. React + zustand state-management lib",
+    "title": "#4. zustand state-management lib",
     "tags": ["#новости"],
     "mappedComponent": "ZustandLibExample"
   },
