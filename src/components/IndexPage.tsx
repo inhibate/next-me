@@ -1,19 +1,16 @@
 
-import React, {FunctionComponent, useEffect} from 'react'
+import React, {FunctionComponent} from 'react'
 import styles from '@/styles/Index.module.scss'
 import meJPG from '@/../public/me.jpg'
-import muiimg from '@/../public/512x512.png'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import CityGallery from './CityGallery'
 
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
-    <div className={styles.hi}>
-      <h1><b>🥷IVAN PAKOV</b></h1>
+    <div className={styles.name}>
+      <h1><b>IVAN PAKOV</b></h1>
     </div>
-    <div className={styles.contacts}>
+    <div className={styles.occ}>
       <h2>JS/TS Fullstack Software developer / Russia</h2>
     </div>
     <h4 style={{marginTop: 15}}>Contact #1: Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
@@ -101,7 +98,7 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <div className={styles.skill} style={{display: 'flex', alignItems: 'center', gap: 5, flexWrap: 'wrap'}}>
+    <div className={styles.skill}>
       <h1 style={{maxWidth: 100}}>Main Stack: </h1>
       <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
       <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
@@ -112,11 +109,17 @@ const Stack: FunctionComponent = () => {
       <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
       <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" />
       <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" />
-      <img  width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
-
+      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
     </div>
     <h4 style={{fontWeight: 400}}>+: HTTP/WS, JWT, REST, <b>Type</b>ORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h4>
   </div>
+}
+
+const Main: FunctionComponent = () => {
+  return <div className={styles.flexWrapper}>
+  <Me />
+  <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: 3}} />
+</div>
 }
 
 const IndexPage: FunctionComponent = props => {
@@ -131,10 +134,7 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
-        <Me />
-        <div className={styles.flexWrapper}>
-          <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" />
-        </div>
+        <Main />
         <Background />
         <Stack />
         <WorkExperience />
