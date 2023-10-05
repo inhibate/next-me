@@ -11,6 +11,9 @@
   img {
     max-width: 150px;
     height: auto;
+    &[src*='7388.gif'] {
+      max-width: 250px;
+    }
   }
   video {
     max-width: 100%;
