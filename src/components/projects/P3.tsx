@@ -1,4 +1,4 @@
-import styles from '@/styles/ProjectItem.module.scss'
+import styles from './Item.module.scss'
 import React from 'react'
 import {Highlight, Paragraph} from '../Typography'
 import {ColorSchemes} from '../SwitchColorScheme'

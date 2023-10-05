@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from '@/styles/ProjectItem.module.scss'
+import styles from './Item.module.scss'
 import {ProjectItem} from '@/types'
 import {FunctionComponent} from "react"
 import Image from 'next/image'
-import stringToJSX from 'html-react-parser'
-import descComponents from './descComponents'
-import DefaultPreviewSVG from './DefaultPreviewSVG'
+import Projects from '.'
+import DefaultPreviewSVG from '../DefaultPreviewSVG'
 
 const getImage = (W: number, H: number, preview: string) => {
   const blurDataURL = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAAUABQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAI/9oACAEBAAAAAD//AP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIQAAAAf//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMQAAAAf//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z'
@@ -41,14 +40,14 @@ const ProjectItem: FunctionComponent<Partial<ProjectItem>> = ({
   repoLink,
   mappedComponent
 }) => {
-  const Desc = descComponents[mappedComponent as keyof typeof descComponents]
+  const Project = Projects[mappedComponent as keyof typeof Projects]
   return <div className={styles.item}>
     <div>
-      <div>project: {repoName} </div>
-      <div>github: <a target="_blank" href={repoLink}>{repoLink!.slice(26)}</a></div>
+      <div>{repoName}</div>
+      <div>In Github: <a target="_blank" href={repoLink}>{repoLink!.slice(26)}</a></div>
     </div>
     <div>{resolvePreview(previewSize!, preview)}</div>
-    <Desc />
+    <Project />
   </div>
 }
 

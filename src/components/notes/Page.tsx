@@ -1,10 +1,10 @@
-import styles from './Blog.module.scss'
+import styles from './Notes.module.scss'
 import Item from './Item'
-import {BlogItemType, BlogItemsType} from '@/types'
+import {Note, Notes} from '@/types'
 import React, {FC} from 'react'
 import {useRouter} from 'next/router'
 import Head from 'next/head'
-import * as Desc from '../descComponents/blog'
+import * as NoteComponents from '.'
 import Input from '../Input'
 import {DiscussionEmbed} from 'disqus-react'
 
@@ -33,7 +33,7 @@ function selectTags(
   })
 }
 
-function findItem(items: BlogItemType[], slug: string) {
+function findItem(items: Note[], slug: string) {
   for (const item of items) {
     const {id} = item
     if (id === slug) {
@@ -53,7 +53,7 @@ function getTagElements(selectedTags: Array<string>, clickEventHandler: any): JS
   })
 }
 
-function filterItems(items: BlogItemType[], selectedTags: string[], searchText: string): JSX.Element[] {
+function filterItems(items: Note[], selectedTags: string[], searchText: string): JSX.Element[] {
   let filteredItems: JSX.Element[] = []
   for (let i = 0; i < items.length; i++) {
     const item = items[i]
@@ -69,7 +69,7 @@ function filterItems(items: BlogItemType[], selectedTags: string[], searchText: 
   return filteredItems
 }
 
-const BlogPage: FC<BlogItemsType> = props => {
+export default (props: Notes) => {
   const router = useRouter()
   const goBack = () => router.back()
   const [selectedTags, setSelectedTags] = React.useState<Array<string>>([])
@@ -110,16 +110,16 @@ const BlogPage: FC<BlogItemsType> = props => {
   }
   else {
     const goBackElement = <div onClick={goBack} style={{display: 'inline-block', cursor: 'pointer'}}>
-      <span>🡠 взад</span>
+      <span>🡠 назад</span>
     </div>
-    const item = findItem(props.items, router.query.slug as string) as BlogItemType
+    const item = findItem(props.items, router.query.slug as string) as Note
     const title = item.title
     const discussionEmbedConfig = {
-      url: 'https://prg938.vercel.app/blog/' + item.id,
+      url: 'https://prg938.vercel.app/note/' + item.id,
       identifier: item.id,
       language: 'ru'
     }
-    const DescComponent = Desc[item.mappedComponent as keyof typeof Desc]
+    const NoteComponent = NoteComponents[item.mappedComponent as keyof typeof NoteComponents]
     const itemElement = <Item {...item} opened={true} />
     return <>
       <Head>
@@ -134,7 +134,7 @@ const BlogPage: FC<BlogItemsType> = props => {
         {itemElement}
       </div>
       <div className={styles.desc}>
-        <DescComponent />
+        <NoteComponent />
       </div>
       <DiscussionEmbed
         shortname='prg938-vercel-app'
@@ -142,5 +142,3 @@ const BlogPage: FC<BlogItemsType> = props => {
     </>
   }
 }
-
-export default BlogPage

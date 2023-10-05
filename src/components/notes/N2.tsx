@@ -23,7 +23,7 @@ const resetDISQUS = () => {
 }`
 type DescComponent<T> = FC<T> & {shortDesc?: string}
 
-const DisqusReactWithColorScheme: DescComponent<{}> = () => {
+const Component: DescComponent<{}> = () => {
   const colorScheme = useColorScheme()
   const opts = {...colorScheme, language: colorScheme?.theme !== ColorSchemes.Text ? 'typescript' : undefined, showLineNumbers: false}
   const opts2 = {...colorScheme, language: colorScheme?.theme !== ColorSchemes.Text ? 'css' : undefined, showLineNumbers: false}
@@ -61,6 +61,6 @@ const DisqusReactWithColorScheme: DescComponent<{}> = () => {
     </Paragraph>
   </>
 }
-DisqusReactWithColorScheme.shortDesc = 'disqus-react это библиотека для интеграции Disqus-комментариев на сайт'
+Component.shortDesc = 'disqus-react это библиотека для интеграции Disqus-комментариев на сайт'
 
-export default DisqusReactWithColorScheme
+export default Component

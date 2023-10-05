@@ -1,30 +1,30 @@
 [
   {
-    "id": "zustand-render-optimization",
+    "id": "note4",
     "date": "26.09.2023",
     "title": "#4. zustand state-management lib",
-    "tags": ["#новости"],
-    "mappedComponent": "ZustandLibExample"
+    "tags": ["#react"],
+    "mappedComponent": "N4"
   },
   {
-    "id": "facebook-blocked-account",
+    "id": "note3",
     "date": "19.07.2023",
     "title": "#3. Facebook заблокировал",
     "tags": ["#новости"],
-    "mappedComponent": "FacebookBlockedAccount"
+    "mappedComponent": "N3"
   },
   {
-    "id": "disqus-react-and-color-scheme",
+    "id": "note2",
     "date": "10.07.2023",
     "title": "#2. color-scheme в disqus-react",
     "tags": ["#react", "#stackoverflow"],
-    "mappedComponent": "DisqusReactWithColorScheme"
+    "mappedComponent": "N2"
   },
   {
-    "id": "about",
+    "id": "note1",
     "date": "01.07.2023",
     "title": "#1",
     "tags": ["#новости"],
-    "mappedComponent": "AboutBlogDesc"
+    "mappedComponent": "N1"
   }
 ]

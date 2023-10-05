@@ -1,11 +1,11 @@
-import styles from './Blog.module.scss'
+import styles from './Notes.module.scss'
 import {FC} from 'react'
-import {BlogItemType} from '@/types'
+import {Note} from '@/types'
 import Link from 'next/link'
 import {CommentCount} from 'disqus-react'
-import * as Desc from '../descComponents/blog'
+import * as NoteComponents from '.'
 
-interface ItemType extends BlogItemType {
+interface ItemType extends Note {
   opened?: boolean
 }
 
@@ -13,7 +13,7 @@ type JSXElement = null | JSX.Element
 
 const Item: FC<ItemType> = ({id, date, title, tags, mappedComponent, opened = false}) => {
   const tagList = tags.map(tag => <span key={tag}>{tag}&nbsp; </span>)
-  const itemHref = '/blog/' + id
+  const itemHref = '/note/' + id
   const commentCountConfig = {
     identifier: id,
     url: 'https://prg938.vercel.app' + itemHref
@@ -32,7 +32,7 @@ const Item: FC<ItemType> = ({id, date, title, tags, mappedComponent, opened = fa
     itemClassName = styles.item
     titleClassName = styles.title
     authorElement = null
-    shortDesc = Desc[mappedComponent as keyof typeof Desc].shortDesc!
+    shortDesc = NoteComponents[mappedComponent as keyof typeof NoteComponents].shortDesc!
 
   }
   const itemElement = <div className={itemClassName}>

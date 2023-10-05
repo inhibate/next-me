@@ -10,11 +10,11 @@ export interface ProjectItem {
 }
 export interface ProjectListType {projects: ProjectItem[]}
 
-export interface BlogItemType {
+export interface Note {
   id: string
   date: string
   title: string
   tags: Array<string>
   mappedComponent: string
 }
-export type BlogItemsType = {items: BlogItemType[]}
+export type Notes = {items: Note[]}
