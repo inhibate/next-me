@@ -135,8 +135,8 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <Main />
-        <Background />
         <Stack />
+        <Background />
         <WorkExperience />
       </main>
     </>
