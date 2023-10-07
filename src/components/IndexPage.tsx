@@ -8,13 +8,13 @@ import Image from 'next/image'
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
     <div className={styles.name}>
-      <h1><b>IVAN PAKOV</b></h1>
+      <h1>Im IVAN PAKOV</h1>
     </div>
     <div className={styles.occ}>
-      <h2>JS/TS Fullstack Software developer / Russia</h2>
+      <h2>JS/TS full-stack software developer based in Russia</h2>
     </div>
-    <h4 style={{marginTop: 15}}>Contact #1: Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
-    <h4>Contact #2: Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
+    <h4>Telegram (preferable if you decide to contact me): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
   </div>
 }
 
@@ -26,11 +26,11 @@ const Background: FunctionComponent = () => {
 
 const WorkExperience: FunctionComponent = () => {
   const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'} as const 
-  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img width="100" height="100" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
-  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img width="100" height="100" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
-  const prg938 = <a href="https://github.com/prg938" target="_blank"><img width="100" height="100" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
+  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img width="80" height="80" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
+  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img width="80" height="80" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
+  const prg938 = <a href="https://github.com/prg938" target="_blank"><img width="80" height="80" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
   return <div className={styles.workExperience}>
-    <h3 style={{fontSize: 60}}>Experience:</h3>
+    <h3 style={{fontSize: 16}}>Experience:</h3>
     <ul>
       <li>
         <div style={teamStyle}>
@@ -99,7 +99,7 @@ const WorkExperience: FunctionComponent = () => {
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
     <div className={styles.skill}>
-      <h1 style={{maxWidth: 100}}>Main Stack: </h1>
+      <h1 style={{maxWidth: 100, fontSize: 16}}>Main Stack: </h1>
       <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
       <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
       <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
@@ -117,9 +117,9 @@ const Stack: FunctionComponent = () => {
 
 const Main: FunctionComponent = () => {
   return <div className={styles.flexWrapper}>
-  <Me />
-  <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: 3}} />
-</div>
+    <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
+    <Me />
+  </div>
 }
 
 const IndexPage: FunctionComponent = props => {
