@@ -118,6 +118,7 @@ const Stack: FunctionComponent = () => {
 const Main: FunctionComponent = () => {
   return <div className={styles.flexWrapper}>
     <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
+    <img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />
     <Me />
   </div>
 }
