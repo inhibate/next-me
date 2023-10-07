@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
     <div className={styles.name}>
-      <h1>Im IVAN PAKOV</h1>
+      <span>Im IVAN PAKOV</span>
     </div>
     <div className={styles.occ}>
       <h2>JS/TS full-stack software developer based in Russia</h2>
