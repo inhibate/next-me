@@ -11,7 +11,7 @@ const Me: FunctionComponent = () => {
       <span>IVAN PAKOV</span>
     </div>
     <div className={styles.occ}>
-      <h2>JavaScript/TypeScript software developer (Russia)</h2>
+      <h2>TypeScript/JavaScript software developer (Russia)</h2>
     </div>
     <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
     <h4>Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
@@ -97,7 +97,7 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS/TS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
+    <h3 style={{fontWeight: 400}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
   </div>
 }
 
