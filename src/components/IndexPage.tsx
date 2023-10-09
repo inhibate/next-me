@@ -8,13 +8,13 @@ import Image from 'next/image'
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
     <div className={styles.name}>
-      <span>Im IVAN PAKOV</span>
+      <span>IVAN PAKOV</span>
     </div>
     <div className={styles.occ}>
-      <h2>JS/TS full-stack software developer based in Russia</h2>
+      <h2>JS/TS software developer (Russia)</h2>
     </div>
     <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
-    <h4>Telegram (preferable if you decide to contact me): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <h4>Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
   </div>
 }
 
@@ -26,26 +26,26 @@ const Background: FunctionComponent = () => {
 
 const WorkExperience: FunctionComponent = () => {
   const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'} as const 
-  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img width="80" height="80" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
-  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img width="80" height="80" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
-  const prg938 = <a href="https://github.com/prg938" target="_blank"><img width="80" height="80" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
+  const imgStyle = {borderRadius: '50%'}
+  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img style={imgStyle} width="50" height="50" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
+  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img style={imgStyle} width="50" height="50" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
+  const prg938 = <a href="https://github.com/prg938" target="_blank"><img style={imgStyle} width="50" height="50" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
   return <div className={styles.workExperience}>
-    <h3 style={{fontSize: 60}}>Experience:</h3>
+    <h3 style={{fontSize: 35, textTransform: 'uppercase'}}>Experience:</h3>
     <ul>
       <li>
         <div style={teamStyle}>
           TEAM:
-          {prg938}
           +unknown
         </div>
         <div>
           <div>
-            <h2>◌ 2019 — Oct 4/2021 — Frontend Developer (React) <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h2>
+            <h3>2019 — Oct 4/2021 — React Frontend Developer <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h3>
           </div>
           <div className={styles.list}>
             <ul>
-              <li>◌ Creating/Updating logic using React for admin-panel</li>
-              <li>◌ Backend interaction using REST API (RoR + Postgres)</li>
+              <li>Created/Updated logic using React for admin-panel</li>
+              <li>Interacted with backend using REST API (RoR and Postgres)</li>
             </ul>
           </div>
         </div>
@@ -58,12 +58,12 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h2>◌ 2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h2>
+            <h3>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h3>
           </div>
           <div className={styles.list}>
             <ul>
-              <li>◌ Programming new logic using React</li>
-              <li>◌ Editing/Updating existing logic using React</li>
+              <li>Programmed new logic using React</li>
+              <li>Editied/Updated existing logic using React</li>
             </ul>
           </div>
         </div>
@@ -77,17 +77,16 @@ const WorkExperience: FunctionComponent = () => {
         </div>
         <div>
           <div>
-            <h2>◌ 2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h2>
+            <h3>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h3>
           </div>
           <div className={styles.list}>
             <ul>
-              <li>◌ Programming new logic for admin-panel using Angular 1 & React</li>
-              <li>◌ Editing/Updating existing logic</li>
-              <li>◌ Implementing CRUD by interacting with REST API (Scala + Postgres)</li>
-              <li>◌ Implementing client-routing for entities</li>
-              <li>◌ Implementing i18n for 3 languages</li>
-              <li>◌ Resolving incoming bugs</li>
-              <li>◌ Integrating external components (WYSIWYG-editor / file-uploader)</li>
+              <li>Programmed new logic for admin-panel using Angular 1 and React</li>
+              <li>Edited/Updated existing logic in existing codebase</li>
+              <li>Implemented CRUD by interacting with REST API (backend on Scala and Postgres)</li>
+              <li>Resolved incoming bugs</li>
+              <li>Integrated external components</li>
+              <li>Used Redux as a library for client-caching for data fetched via REST API</li>
             </ul>
           </div>
         </div>
@@ -98,27 +97,14 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <div className={styles.skill}>
-      <h1 style={{maxWidth: 100, fontSize: 16}}>Main Stack: </h1>
-      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" />
-      <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
-      <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
-      <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" />
-      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" />
-      <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
-    </div>
-    <h2 style={{fontWeight: 400}}>+: HTTP/WS, JWT, REST, <b>Type</b>ORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h2>
+    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS, TS, React, Redux, Redis DB, PostgreSQL, Git, Nest, Webpack, Next, HTTP/WS, JWT, REST, TypeORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h3>
   </div>
 }
 
 const Main: FunctionComponent = () => {
   return <div className={styles.flexWrapper}>
     <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
-    {/*<img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />*/}
+    <img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />
     <Me />
   </div>
 }
@@ -127,7 +113,7 @@ const IndexPage: FunctionComponent = props => {
   return (
     <>
       <Head>
-        <title>PRG938</title>
+        <title>Fullstack Developer PRG938</title>
         <meta name="description" content="#PRG938 #Pakov #Ivan #frontend #backend #next #nest #react #node.js #typescript" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
