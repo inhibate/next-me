@@ -111,7 +111,7 @@ const Stack: FunctionComponent = () => {
       <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" />
       <img width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
     </div>
-    <h4 style={{fontWeight: 400}}>+: HTTP/WS, JWT, REST, <b>Type</b>ORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h4>
+    <h2 style={{fontWeight: 400}}>+: HTTP/WS, JWT, REST, <b>Type</b>ORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h2>
   </div>
 }
 
