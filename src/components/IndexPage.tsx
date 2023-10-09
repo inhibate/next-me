@@ -97,14 +97,14 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS/TS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis in-memory DB, PostgreSQL RDBMS</h3>
+    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS/TS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
   </div>
 }
 
 const Main: FunctionComponent = () => {
   return <div className={styles.flexWrapper}>
     <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
-    <img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />
+    {/*<img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />*/}
     <Me />
   </div>
 }
