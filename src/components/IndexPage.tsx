@@ -20,7 +20,7 @@ const Me: FunctionComponent = () => {
 
 const Background: FunctionComponent = () => {
   return <div className={styles.background}>
-    <h3>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
+    <h3 {textTransform: 'uppercase'}>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
   </div>
 }
 
