@@ -36,7 +36,7 @@ const WorkExperience: FunctionComponent = () => {
       <li>
         <div style={teamStyle}>
           TEAM:
-          +unknown
+          unknown
         </div>
         <div>
           <div>
