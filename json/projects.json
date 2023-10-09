@@ -10,11 +10,11 @@
   },
   {
     "id": "mariogame",
-    "preview": "https://user-images.githubusercontent.com/7237762/273685884-7068794d-d452-421a-b62e-abf54e3012c7.gif",
-    "previewSize": [256, 256],
+    "preview": "https://user-images.githubusercontent.com/7237762/273692235-349a244c-4e1b-4a01-974f-b094e07849a3.gif",
+    "previewSize": [619, 580],
     "repoName": "browser mario game",
     "repoLink": "https://github.com/prg938/mariogame",
-    "shortDesc": "Mario game using JavaScript and Canvas. 2 levels ready to be played! Other levels still under development😎",
+    "shortDesc": "Mario game using JavaScript and Canvas",
     "mappedComponent": "P2"
   },
   {
