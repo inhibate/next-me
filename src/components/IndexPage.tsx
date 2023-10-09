@@ -11,7 +11,7 @@ const Me: FunctionComponent = () => {
       <span>IVAN PAKOV</span>
     </div>
     <div className={styles.occ}>
-      <h2>JS/TS software developer (Russia)</h2>
+      <h2>JavaScript/TypeScript software developer (Russia)</h2>
     </div>
     <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
     <h4>Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
