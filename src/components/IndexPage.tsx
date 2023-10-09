@@ -109,6 +109,12 @@ const Main: FunctionComponent = () => {
   </div>
 }
 
+const ExportConst: FunctionComponent = () => {
+  return <div>
+    export const Page = () => {
+  </div>
+}
+
 const IndexPage: FunctionComponent = props => {
   return (
     <>
@@ -121,6 +127,7 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
+        <ExportConst />
         <Main />
         <Stack />
         <Background />
