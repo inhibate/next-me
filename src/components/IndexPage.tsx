@@ -97,7 +97,7 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS, TS, React, Redux, Redis DB, PostgreSQL, Git, Nest, Webpack, Next, HTTP/WS, JWT, REST, TypeORM, SWR, Zustand, Sass/Scss, Antd UI, MUI</h3>
+    <h3 style={{fontWeight: 400}}><b>STACK:</b> JS/TS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd UI, MUI, Redis (in-memory DB), PostgreSQL (RDBMS), Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM</h3>
   </div>
 }
 
