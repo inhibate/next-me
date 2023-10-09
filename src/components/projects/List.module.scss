@@ -15,6 +15,9 @@
   .title {
     font-size: 22px;
     text-transform: uppercase;
+    a {
+      color: var(--body-color);
+    }
   }
   .desc {
     font-weight: 400;
