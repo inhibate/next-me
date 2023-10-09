@@ -1,16 +1,17 @@
 import styles from './Item.module.scss'
 import React from 'react'
-import {Paragraph} from '../Typography'
 import Image from 'next/image'
 import screenshot1 from '@/../public/S31009-203907.jpg'
 import screenshot2 from '@/../public/S31009-203912.jpg'
 
 export default () => {
   return <div className={styles.desc}>
-    <h2>Screenshots:</h2>
-    <div>
-      <Image src={screenshot1} quality={100} alt="screenshot1" placeholder="blur" style={{maxWidth: 180, border: '3px solid #979797', marginRight: 20}} />
-      <Image src={screenshot2} quality={100} alt="screenshot2" placeholder="blur" style={{maxWidth: 180, border: '3px solid #979797'}} />
+    <div style={{margin: '15px 0'}}>
+      <h2>Screenshots:</h2>
+      <div>
+        <Image src={screenshot1} quality={100} alt="screenshot1" placeholder="blur" style={{maxWidth: 180, border: '3px solid #979797', marginRight: 20}} />
+        <Image src={screenshot2} quality={100} alt="screenshot2" placeholder="blur" style={{maxWidth: 180, border: '3px solid #979797'}} />
+      </div>
     </div>
     <div>
       <h2>Features:</h2>
