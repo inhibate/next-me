@@ -43,7 +43,7 @@ const ProjectItem: FunctionComponent<Partial<ProjectItem>> = ({
   const Project = Projects[mappedComponent as keyof typeof Projects]
   return <div className={styles.item}>
     <div>
-      <div>{repoName}</div>
+      <h1 style={{textTransform: 'uppercase'}}>{repoName}</h1>
       <div>In Github: <a target="_blank" href={repoLink}>{repoLink!.slice(26)}</a></div>
     </div>
     <div>{resolvePreview(previewSize!, preview)}</div>
