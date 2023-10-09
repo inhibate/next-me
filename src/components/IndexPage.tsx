@@ -109,7 +109,7 @@ const Main: FunctionComponent = () => {
   </div>
 }
 
-const ExportConst: FunctionComponent = () => <div>{'export const Page = () =&gt; {'}</div>
+const ExportConst: FunctionComponent = () => <h3>{'export'} <span style={{color: 'rebeccapurple'}}>{'const'}</span> {'Page = () => {'}</h3>
 
 const IndexPage: FunctionComponent = props => {
   return (
