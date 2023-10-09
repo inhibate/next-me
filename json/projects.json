@@ -10,8 +10,8 @@
   },
   {
     "id": "mariogame",
-    "preview": "https://user-images.githubusercontent.com/7237762/272269421-eb12e4a7-031a-44c2-84df-07ecada2f4e6.gif",
-    "previewSize": [800, 600],
+    "preview": "https://user-images.githubusercontent.com/7237762/273685884-7068794d-d452-421a-b62e-abf54e3012c7.gif",
+    "previewSize": [256, 256],
     "repoName": "browser mario game",
     "repoLink": "https://github.com/prg938/mariogame",
     "shortDesc": "Mario game using JavaScript and Canvas. 2 levels ready to be played! Other levels still under development😎",
@@ -28,8 +28,8 @@
   },
   {
     "id": "masonrylayout-tsx-react",
-    "preview": "https://user-images.githubusercontent.com/7237762/244848390-2b435ea0-63e1-456b-affe-9c6ba3f169e9.png",
-    "previewSize": [50, 50],
+    "preview": "https://camo.githubusercontent.com/46b2051d3c1a855acc40c2fc4a05aa3a5e238815c9aeca969624229f53646522/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f313837352f504e472f3531322f6c61796f7574345f3132303437342e706e67",
+    "previewSize": [512, 512],
     "repoName": "masonry layout",
     "repoLink": "https://github.com/prg938/masonrylayout-tsx-react",
     "shortDesc": "Masonry layout implementation for React",
@@ -38,7 +38,7 @@
   {
     "id": "next-me",
     "preview": "https://user-images.githubusercontent.com/7237762/272258094-fe8f1fa5-efa8-4916-941a-c61cb56e3b9e.png",
-    "previewSize": [50, 50],
+    "previewSize": [180, 180],
     "repoName": "PRG938 Site",
     "repoLink": "https://github.com/prg938/next-me",
     "shortDesc": "prg938.vercel.app with Next",
@@ -47,7 +47,7 @@
   {
     "id": "html-webpack-scripts-plugin",
     "preview": "https://user-images.githubusercontent.com/7237762/272281281-7f540130-9485-48c6-b5d9-d0af5ad76ea3.png",
-    "previewSize": [50, 50],
+    "previewSize": [180, 180],
     "repoName": "Webpack plugin",
     "repoLink": "https://github.com/prg938/html-webpack-scripts-plugin",
     "shortDesc": "external ⇒ inline script transformation",

@@ -2,11 +2,17 @@
 
 module.exports = {
   images: {
-    remotePatterns: [{
+    remotePatterns: [
+    {
       protocol: 'https',
       hostname: 'user-images.githubusercontent.com',
       port: '',
       pathname: '/7237762/**'
+    }
+    {
+      protocol: 'https',
+      hostname: 'camo.githubusercontent.com',
+      port: ''
     }]
   },
   reactStrictMode: false,
