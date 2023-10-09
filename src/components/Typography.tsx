@@ -29,7 +29,7 @@ const Highlight: FC<HighlightPropsType> = props => {
   </div>
 }
 
-const Paragraph = ({children}: {children: React.ReactNode}) => <p style={{margin: '15px 0', maxWidth: 400}}>{children}</p>
+const Paragraph = ({children}: {children: React.ReactNode}) => <p style={{margin: '15px 0'}}>{children}</p>
 
 const Marker = ({children}: {children: React.ReactNode}) => <span style={{backgroundColor: 'var(--marker-background)', borderRadius: '5px', padding: '0px 4px'}}>{children}</span>
 
