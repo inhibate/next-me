@@ -109,11 +109,7 @@ const Main: FunctionComponent = () => {
   </div>
 }
 
-const ExportConst: FunctionComponent = () => {
-  return <div>
-    export const Page = () =&gt; {
-  </div>
-}
+const ExportConst: FunctionComponent = () => <div>{'export const Page = () =&gt; {'}</div>
 
 const IndexPage: FunctionComponent = props => {
   return (
