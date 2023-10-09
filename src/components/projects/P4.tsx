@@ -2,8 +2,8 @@ import styles from './Item.module.scss'
 import React from 'react'
 import {Paragraph} from '../Typography'
 import Image from 'next/image'
-import screenshot1 from '@/../pub;ic/S31009-203907.jpg'
-import screenshot2 from '@/../pub;ic/S31009-203912.jpg'
+import screenshot1 from '@/../public/S31009-203907.jpg'
+import screenshot2 from '@/../public/S31009-203912.jpg'
 
 export default () => {
   return <div className={styles.desc}>
