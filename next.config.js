@@ -8,7 +8,7 @@ module.exports = {
       hostname: 'user-images.githubusercontent.com',
       port: '',
       pathname: '/7237762/**'
-    }
+    },
     {
       protocol: 'https',
       hostname: 'camo.githubusercontent.com',
