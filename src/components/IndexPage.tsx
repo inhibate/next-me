@@ -111,7 +111,7 @@ const Main: FunctionComponent = () => {
 
 const ExportConst: FunctionComponent = () => {
   return <div>
-    export const Page = () => {
+    export const Page = () =&gt; {
   </div>
 }
 
