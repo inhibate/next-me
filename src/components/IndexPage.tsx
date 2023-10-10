@@ -23,19 +23,18 @@ const Me: FunctionComponent = () => {
 const Info: FunctionComponent = () => {
   return <div className={styles.info}>
     <div className={styles.name}>
-      <h3>IVAN PAKOV</h3>
+      <h4>IVAN PAKOV</h4>
     </div>
     <div className={styles.occ}>
       <h2>JavaScript/TypeScript software developer</h2>
     </div>
-    <div style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></div>
-    <div style={{marginBottom: 15}}>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></div>
-    <h3 style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
+    <div style={{margin: '15px 0'}}>TELEGRAM: <a href="https://t.me/prg938" target="_blank">prg938</a> EMAIL: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></div>
+    <h4 style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h4>
   </div>
 }
 
 const WorkExperience: FunctionComponent = () => {
-  const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5, flexDirection: 'column'} as const 
+  const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5} as const 
   const imgStyle = {borderRadius: '50%'}
   const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img style={imgStyle} width="50" height="50" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
   const sergeda = <a href="https://github.com/sergeda" target="_blank"><img style={imgStyle} width="50" height="50" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
@@ -57,15 +56,11 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div style={teamStyle}>
-          TEAM:
-          {sergeda}
-          {prg938}
-        </div>
         <div>
           <div>
             <h3>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h3>
           </div>
+          <div style={teamStyle}>{sergeda} {prg938} :TEAM</div>
           <div className={styles.list}>
             <ul>
               <li>Programmed new logic using React</li>
@@ -75,16 +70,11 @@ const WorkExperience: FunctionComponent = () => {
         </div>
       </li>
       <li>
-        <div style={teamStyle}>
-          TEAM:
-          {bhingoleramdas143}
-          {sergeda}
-          {prg938}
-        </div>
         <div>
           <div>
             <h3>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h3>
           </div>
+          <div style={teamStyle}>{bhingoleramdas143} {sergeda} {prg938} :TEAM</div>
           <div className={styles.list}>
             <ul>
               <li>Programmed new logic for admin-panel using Angular 1 and React</li>
@@ -103,7 +93,7 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3 style={{fontWeight: 'var(--body-font-weight)'}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
+    <h4 style={{fontWeight: 'var(--body-font-weight)'}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h4>
   </div>
 }
 

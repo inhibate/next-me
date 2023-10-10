@@ -22,7 +22,7 @@ const Highlight: FC<HighlightPropsType> = props => {
       background: 'transparent'
     }
   }
-  return <div style={{margin: '15px 0'}}>
+  return <div style={{margin: '15px 0', overflow: 'scroll'}}>
     <SyntaxHighlighter language={language} showLineNumbers={showLineNumbers} style={definedStyle} customStyle={{...{fontSize: '11px', display: 'inline-block', borderRadius: 10}, ...definedCustomStyle}} {...otherProps}>
       {children}
     </SyntaxHighlighter>
