@@ -11,12 +11,11 @@ using namespace std;
 int main(void) {
   cout << "HELLO WORLD";
   return 0;
-}
-`
+}`
 
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
-    <Highlight language='cpp'>{cppHW}</Highlight>
+    <Highlight language='cpp' showLineNumbers={true} theme='light'>{cppHW}</Highlight>
   </div>
 }
 
@@ -26,7 +25,7 @@ const Info: FunctionComponent = () => {
       <h4>IVAN PAKOV</h4>
     </div>
     <div className={styles.occ}>
-      <h2>JavaScript/TypeScript software developer</h2>
+      <h2>JS/TS Developer</h2>
     </div>
     <div style={{marginTop: 15}}><a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a> - email</div>
     <div style={{marginBottom: 15}}><a href="https://t.me/prg938" target="_blank">prg938</a> - telegram</div>
@@ -46,7 +45,7 @@ const WorkExperience: FunctionComponent = () => {
       <li>
         <div>
           <div>
-            <h3>2019 — Oct 4/2021 — React Frontend Developer <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h3>
+            <div><a href="http://www.autoklad.ua" target='_blank'>Autoclad</a> — 2019 — Oct 2021 — <b>React Frontend Developer</b></div>
           </div>
           <div className={styles.list}>
             <ul>
@@ -59,7 +58,7 @@ const WorkExperience: FunctionComponent = () => {
       <li>
         <div>
           <div>
-            <h3>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h3>
+            <div><a href="http://altinet.ua" target='_blank'>Altinet</a> — 2017 — Nov 2018 — <b>React Frontend Developer</b></div>
           </div>
           <div style={teamStyle}>TEAM — {sergeda} {prg938}</div>
           <div className={styles.list}>
@@ -73,7 +72,7 @@ const WorkExperience: FunctionComponent = () => {
       <li>
         <div>
           <div>
-            <h3>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h3>
+            <div><a href="https://vk.com/tovarovoz" target='_blank'>Tovarovoz</a> — 2015 — Jun 2016 — <b>Angular & React Frontend Developer</b></div>
           </div>
           <div style={teamStyle}>TEAM — {bhingoleramdas143} {sergeda} {prg938}</div>
           <div className={styles.list}>

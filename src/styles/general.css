@@ -9,7 +9,7 @@
   --body-font-weight: 400;
   --body-color: rgba(0, 0, 0, .97);
   --body-background-color: white;
-  --a-color: rebeccapurple;
+  --a-color: black;
   --header-link-color: rgba(51, 51, 51);
   --header-link-hover-color: rgba(51, 51, 51);
   --header-active-background: #ececec;
@@ -35,7 +35,7 @@
   --body-font-weight: 200;
   --body-color: rgba(255, 255, 255, .87);
   --body-background-color: #121212;
-  --a-color: rgb(151, 89, 213);
+  --a-color: white;
   --header-link-color: rgba(255, 255, 255, .87);
   --header-link-hover-color: white;
   --header-active-background: #0e0e0e;
@@ -80,4 +80,41 @@ body {
 
 :root[data-color-scheme="dark"] iframe[src*="disqus.com"] {
   color-scheme: light;
+}
+
+/* https://github.com/luandersonn/Modern-scrollbar/blob/main/css/scrollbar.css */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  transition: 1.0s;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(127, 127, 127, 0.6);
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 1.0s;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: rgb(110, 110, 110);
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+
+::-webkit-scrollbar-thumb:vertical:active,
+::-webkit-scrollbar-thumb:horizontal:active {
+  background: rgba(95, 91, 91, 1);
+
+}
+
+::-webkit-scrollbar-corner {
+  background: none;
 }
