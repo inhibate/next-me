@@ -30,7 +30,7 @@ const Info: FunctionComponent = () => {
     </div>
     <div style={{marginTop: 15}}><a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a> - email</div>
     <div style={{marginBottom: 15}}><a href="https://t.me/prg938" target="_blank">prg938</a> - telegram</div>
-    <h4 style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h4>
+    <div style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></div>
   </div>
 }
 
@@ -94,7 +94,7 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h4 style={{fontWeight: 'var(--body-font-weight)'}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h4>
+    <div style={{fontWeight: 'var(--body-font-weight)'}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</div>
   </div>
 }
 
