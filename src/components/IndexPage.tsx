@@ -4,23 +4,33 @@ import styles from '@/styles/Index.module.scss'
 import meJPG from '@/../public/me.jpg'
 import Head from 'next/head'
 import Image from 'next/image'
+import {Highlight} from '@/components/Typography'
+
+const cppHW = `#include <iostream>
+using namespace std;
+int main(void) {
+  cout << "HELLO WORLD";
+  return 0;
+}
+`
 
 const Me: FunctionComponent = () => {
   return <div className={styles.me}>
-    <div className={styles.name}>
-      <span>IVAN PAKOV</span>
-    </div>
-    <div className={styles.occ}>
-      <h2>TypeScript/JavaScript software developer (Russia)</h2>
-    </div>
-    <h4 style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></h4>
-    <h4>Telegram (preferable): <a href="https://t.me/prg938" target="_blank">prg938</a></h4>
+    <Highlight language='cpp'>{cppHW}</Highlight>
   </div>
 }
 
-const Background: FunctionComponent = () => {
-  return <div className={styles.background}>
-    <h3 style={{textTransform: 'uppercase'}}>Background: <a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
+const Info: FunctionComponent = () => {
+  return <div className={styles.info}>
+    <div className={styles.name}>
+      <h3>IVAN PAKOV</h3>
+    </div>
+    <div className={styles.occ}>
+      <h2>JavaScript/TypeScript software developer</h2>
+    </div>
+    <div style={{marginTop: 15}}>Email: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></div>
+    <div style={{marginBottom: 15}}>Telegram: <a href="https://t.me/prg938" target="_blank">prg938</a></div>
+    <h3 style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h3>
   </div>
 }
 
@@ -34,10 +44,6 @@ const WorkExperience: FunctionComponent = () => {
     <h3 style={{fontSize: 35, textTransform: 'uppercase'}}>Experience:</h3>
     <ul>
       <li>
-        <div style={teamStyle}>
-          TEAM:
-          unknown
-        </div>
         <div>
           <div>
             <h3>2019 — Oct 4/2021 — React Frontend Developer <b>at <a href="http://www.autoklad.ua" target='_blank'>AUTOCLAD</a></b></h3>
@@ -97,19 +103,16 @@ const WorkExperience: FunctionComponent = () => {
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
-    <h3 style={{fontWeight: 400}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
+    <h3 style={{fontWeight: 'var(--body-font-weight)'}}><b>STACK:</b> TS/JS, node.js, Next, React, Redux, SWR, Zustand, Sass/Scss, Antd, MUI, Git, Nest, Webpack, HTTP/WS, JWT, REST, TypeORM, Redis, PostgreSQL</h3>
   </div>
 }
 
 const Main: FunctionComponent = () => {
   return <div className={styles.flexWrapper}>
     <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
-    {/*<img src='https://avatars.githubusercontent.com/u/7237762?v=4' alt="github" placeholder="blur" style={{borderRadius: '50%'}} />*/}
     <Me />
   </div>
 }
-
-const ExportConst: FunctionComponent = () => <h2 style={{marginBottom: 40}}>{'export'} <span style={{color: 'rebeccapurple'}}>{'const'}</span> {'Page = '}</h2>
 
 const IndexPage: FunctionComponent = props => {
   return (
@@ -123,10 +126,9 @@ const IndexPage: FunctionComponent = props => {
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
-        <ExportConst />
         <Main />
+        <Info />
         <Stack />
-        <Background />
         <WorkExperience />
       </main>
     </>

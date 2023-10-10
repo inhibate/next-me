@@ -6,7 +6,7 @@ import {Roboto_Flex} from 'next/font/google'
 import {Provider} from '@/GlobalRedux/provider'
 
 const font = Roboto_Flex({
-  weight: ['400', '500', '600', '700'],
+  weight: ['200', '400', '500', '600', '700'],
   subsets: ['latin', 'cyrillic']
 })
 
