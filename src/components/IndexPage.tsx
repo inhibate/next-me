@@ -37,9 +37,9 @@ const Info: FunctionComponent = () => {
 const WorkExperience: FunctionComponent = () => {
   const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5} as const 
   const imgStyle = {borderRadius: '50%'}
-  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img style={imgStyle} width="50" height="50" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
-  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img style={imgStyle} width="50" height="50" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
-  const prg938 = <a href="https://github.com/prg938" target="_blank"><img style={imgStyle} width="50" height="50" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
+  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img style={imgStyle} width="25" height="25" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
+  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img style={imgStyle} width="25" height="25" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
+  const prg938 = <a href="https://github.com/prg938" target="_blank"><img style={imgStyle} width="25" height="25" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
   return <div className={styles.workExperience}>
     <h3 style={{fontSize: 35, textTransform: 'uppercase'}}>Experience:</h3>
     <ul>
@@ -61,7 +61,7 @@ const WorkExperience: FunctionComponent = () => {
           <div>
             <h3>2017 — Nov 7/2018 — Frontend Developer (React) <b>at <a href="http://altinet.ua" target='_blank'>ALTINET</a></b></h3>
           </div>
-          <div style={teamStyle}>{sergeda} {prg938} :TEAM</div>
+          <div style={teamStyle}>TEAM — {sergeda} {prg938}</div>
           <div className={styles.list}>
             <ul>
               <li>Programmed new logic using React</li>
@@ -75,7 +75,7 @@ const WorkExperience: FunctionComponent = () => {
           <div>
             <h3>2015 — Jun 11/2016 — Frontend-developer (Angular 1 & React) <b>at <a href="https://vk.com/tovarovoz" target='_blank'>TOVAROVOZ</a></b></h3>
           </div>
-          <div style={teamStyle}>{bhingoleramdas143} {sergeda} {prg938} :TEAM</div>
+          <div style={teamStyle}>TEAM — {bhingoleramdas143} {sergeda} {prg938}</div>
           <div className={styles.list}>
             <ul>
               <li>Programmed new logic for admin-panel using Angular 1 and React</li>
