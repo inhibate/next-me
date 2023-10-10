@@ -28,7 +28,8 @@ const Info: FunctionComponent = () => {
     <div className={styles.occ}>
       <h2>JavaScript/TypeScript software developer</h2>
     </div>
-    <div style={{margin: '15px 0'}}>TELEGRAM: <a href="https://t.me/prg938" target="_blank">prg938</a> EMAIL: <a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a></div>
+    <div style={{marginTop: 15}}><a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a> - email</div>
+    <div style={{marginBottom: 15}}><a href="https://t.me/prg938" target="_blank">prg938</a> - telegram</div>
     <h4 style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></h4>
   </div>
 }
