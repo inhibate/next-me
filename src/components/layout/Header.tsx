@@ -14,7 +14,7 @@ const Header: FC<{}> = () => {
   enum HeaderLiType {Content, Link}
   const headerLi = [
     {type: HeaderLiType.Link, href: '/', text: 'ME'},
-    {type: HeaderLiType.Link, href: '/project/all', text: 'Pet-projects'},
+    {type: HeaderLiType.Link, href: '/project/all', text: 'projects'},
     {type: HeaderLiType.Link, href: '/note/all', text: 'Notes'},
     {type: HeaderLiType.Content, content: <MuiSwitcher />}
   ]
