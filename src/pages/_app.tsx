@@ -6,23 +6,16 @@ import {Roboto_Flex} from 'next/font/google'
 import {Provider} from '@/GlobalRedux/provider'
 
 const font = Roboto_Flex({
-  weight: ['200', '400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin', 'cyrillic']
 })
 
-export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
-  getLayout?: (page: ReactElement) => ReactNode
-}
+export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {getLayout?: (page: ReactElement) => ReactNode}
 
-type AppPropsWithLayout = AppProps & {
-  Component: NextPageWithLayout
-}
-
+type AppPropsWithLayout = AppProps & {Component: NextPageWithLayout}
 export default function App({Component, pageProps}: AppPropsWithLayout) {
-
   const getLayout = Component.getLayout ?? (page => page)
   const layout = getLayout(<Component {...pageProps} />)
-  
   return (
     <div className={font.className}>
       <Provider>

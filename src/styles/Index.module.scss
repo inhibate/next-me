@@ -1,48 +1,49 @@
-$max-width: 550px;
-.main {
-  > * {
-    margin: 20px 0;
-  }
-  li {
-    list-style: none;
-  }
-  .me {
-    padding-left: 10px;
-    > div:first-child {
-      margin: 0 !important;
-    }
-  }
-  .flexWrapper {
-    display: flex;
-    > img {
-      width: 90px;
-      min-width: 90px;
-      height: 90px;
-      min-height: 90px;
-    }
-  }
-  .occ {
-    h2 {
-      font-weight: var(--body-font-weight);
-    }
-  }
-  .skill {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    flex-wrap: wrap;
-  }
 
-  .workExperience {
-    .list {
-      margin-top: 0;
-      li {
-        margin: 3px 0;
+@mixin media {
+  $p3: 550px;
+  @media screen and (max-width: $p3) { @content }
+}
+
+.main {
+  display: flex;
+  align-items: center;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    .telegram {
+      display: flex;
+      img {
+        margin-right: 5px;
+      }
+      @include media {
+        justify-content: center;
       }
     }
-    >ul>li {
-      margin-top: 30px;
+    @include media {
+      text-align: center;
     }
+  }
+
+  .myface {
+    img {
+      width: 200px;
+      height: auto;
+    }
+    margin: 0 20px;
+  }
+
+  .stack {
+    font-size: 16px;
+    ul {
+      list-style: none;
+      li.label {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  @include media {
+    flex-direction: column;
   }
 }

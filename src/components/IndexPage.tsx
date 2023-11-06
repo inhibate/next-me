@@ -1,95 +1,9 @@
 
 import React, {FunctionComponent} from 'react'
 import styles from '@/styles/Index.module.scss'
-import meJPG from '@/../public/me.jpg'
+import myFacePhoto from '@/../public/me.jpg'
 import Head from 'next/head'
 import Image from 'next/image'
-import {Highlight} from '@/components/Typography'
-
-const cppHW = `#include <iostream>
-using namespace std;
-int main(void) {
-  cout << "HELLO WORLD";
-  return 0;
-}`
-
-const Me: FunctionComponent = () => {
-  return <div className={styles.me}>
-    <Highlight language='cpp' showLineNumbers={true} theme='light'>{cppHW}</Highlight>
-  </div>
-}
-
-const Info: FunctionComponent = () => {
-  return <div className={styles.info}>
-    <div className={styles.name}>
-      <h4>IVAN PAKOV</h4>
-    </div>
-    <div className={styles.occ}>
-      <h2>JS/TS Developer</h2>
-    </div>
-    <div style={{marginTop: 15}}><a href="mailto:prg938@mail.ru" target="_blank">prg938@mail.ru</a> - email</div>
-    <div style={{marginBottom: 15}}><a href="https://t.me/prg938" target="_blank">prg938</a> - telegram</div>
-    <div style={{fontWeight: 'var(--body-font-weight)', textTransform: 'uppercase'}}><b>Background: </b><a href="http://eng.iate.obninsk.ru" target="_blank">IATE MEPhI</a></div>
-  </div>
-}
-
-const WorkExperience: FunctionComponent = () => {
-  const teamStyle = {display: 'flex', alignItems: 'center', gap: 5, marginRight: 5} as const 
-  const imgStyle = {borderRadius: '50%'}
-  const bhingoleramdas143 = <a href="https://gitlab.com/bhingoleramdas143" target="_blank"><img style={imgStyle} width="25" height="25" src="https://yt3.googleusercontent.com/ytc/APkrFKa7hY520VBRRMG-eI1c1l1X-NS5zf63SQQRJO2A4tY=s176-c-k-c0x00ffffff-no-rj" alt='img' /></a>
-  const sergeda = <a href="https://github.com/sergeda" target="_blank"><img style={imgStyle} width="25" height="25" src="https://avatars.githubusercontent.com/u/914764?v=4" alt='img' /></a>
-  const prg938 = <a href="https://github.com/prg938" target="_blank"><img style={imgStyle} width="25" height="25" src="https://prg938.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.0ab4b34f.jpg&amp;w=640&amp;q=100" alt='img' /></a>
-  return <div className={styles.workExperience}>
-    <h3 style={{fontSize: 35, textTransform: 'uppercase'}}>Experience:</h3>
-    <ul>
-      <li>
-        <div>
-          <div>
-            <div><a href="http://www.autoklad.ua" target='_blank'>Autoclad</a> — 2019 — Oct 2021 — <b>React Frontend Developer</b></div>
-          </div>
-          <div className={styles.list}>
-            <ul>
-              <li>Created/Updated logic using React for admin-panel</li>
-              <li>Interacted with backend using REST API (RoR and Postgres)</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <div>
-            <div><a href="http://altinet.ua" target='_blank'>Altinet</a> — 2017 — Nov 2018 — <b>React Frontend Developer</b></div>
-          </div>
-          <div style={teamStyle}>TEAM — {sergeda} {prg938}</div>
-          <div className={styles.list}>
-            <ul>
-              <li>Programmed new logic using React</li>
-              <li>Editied/Updated existing logic using React</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <div>
-            <div><a href="https://vk.com/tovarovoz" target='_blank'>Tovarovoz</a> — 2015 — Jun 2016 — <b>Angular & React Frontend Developer</b></div>
-          </div>
-          <div style={teamStyle}>TEAM — {bhingoleramdas143} {sergeda} {prg938}</div>
-          <div className={styles.list}>
-            <ul>
-              <li>Programmed new logic for admin-panel using Angular 1 and React</li>
-              <li>Edited/Updated existing logic in existing codebase</li>
-              <li>Implemented CRUD by interacting with REST API (backend on Scala and Postgres)</li>
-              <li>Resolved incoming bugs</li>
-              <li>Integrated external components</li>
-              <li>Used Redux as a library for client-caching for data fetched via REST API</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-}
 
 const Stack: FunctionComponent = () => {
   return <div className={styles.skillset}>
@@ -97,29 +11,55 @@ const Stack: FunctionComponent = () => {
   </div>
 }
 
-const Main: FunctionComponent = () => {
-  return <div className={styles.flexWrapper}>
-    <Image src={meJPG} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
-    <Me />
-  </div>
-}
-
 const IndexPage: FunctionComponent = props => {
   return (
     <>
       <Head>
-        <title>Fullstack Developer PRG938</title>
-        <meta name="description" content="#PRG938 #Pakov #Ivan #frontend #backend #next #nest #react #node.js #typescript" />
+        <title>Ivan Pakov. Software developer</title>
+        <meta name="description" content="#pakov #ivan #frontend #backend #next #nest #react #node.js #typescript" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="yandex-verification" content="a1e54786b39f217b" />
         <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
       </Head>
       <main className={styles.main}>
-        <Main />
-        <Info />
-        <Stack />
-        <WorkExperience />
+        <div className={styles.title}>
+          <div>Ivan Pakov. Frontend & Backend software web developer.</div>
+          <div className={styles.telegram}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
+            <div>telegram: <a href="https://t.me/prg938" target="_blank">t.me/prg938</a></div>
+          </div>
+        </div>
+        <div className={styles.myface}>
+          <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
+        </div>
+        <div className={styles.stack}>
+          <ul>
+            <li><b>Stack that I use in development:</b></li>
+            <li className={styles.label}><b>Frontend: </b></li>
+            <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
+            <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
+            <li><a href="https://nextjs.org">Next.js (Web React framework)</a></li>
+            <li><a href="https://react.dev">React</a></li>
+            <li><a href="https://redux.js.org">Redux</a></li>
+            <li><a href="https://swr.vercel.app">SWR</a></li>
+            <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
+            <li><a href="https://sass-lang.com">Sass</a></li>
+            <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a> components libraries</li>
+            <li><a href="https://webpack.js.org">Webpack</a></li>
+            <li className={styles.label}><b>Backend: </b></li>
+            <li><a href="https://nodejs.org/en">node.js</a></li>
+            <li><a href="https://nextjs.org">Nest.js (node.js framework)</a></li>
+            <li>HTTP/WS Protocols</li>
+            <li><a href="https://typeorm.io">TypeORM</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
+            <li><a href="https://jwt.io">JWT</a></li>
+            <li><a href="https://redis.io">Redis</a></li>
+            <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
+            <li className={styles.label}><b>Other: </b></li>
+            <li>Git/Github/Gitlab</li>
+          </ul>
+        </div>
       </main>
     </>
   )

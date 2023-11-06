@@ -1,28 +1,22 @@
-$media-point-3: 550px;
+$p3: 550px;
 .header {
-  z-index: 2;
-  position: relative;
-  top: 0;
   padding: 0rem 1rem;
-  min-width: 320px;
-  min-height: 70px;
   backdrop-filter: saturate(180%) blur(5px);
   text-transform: uppercase;
   font-weight: 500;
-  @media screen and (max-width: $media-point-3) {
+  @media screen and (max-width: $p3) {
     position: relative;
   }
   ul {
-    max-width: 700px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     list-style: none;
-    @media screen and (max-width: $media-point-3) {
+    @media screen and (max-width: $p3) {
       flex-direction: column;
     }
   }
   ul li {
+    margin-top: 20px;
     margin-right: 20px;
     padding: 7px;
     border-radius: 7px;
@@ -33,12 +27,6 @@ $media-point-3: 550px;
       &:hover {
         color: var(--header-link-hover-color);
       }
-    }
-    @media screen and (max-width: $media-point-3) {
-      margin-right: 0;
-    }
-    &:nth-child(1) {
-      display: flex;
     }
     &.current {
       background-color: var(--header-active-background);
@@ -57,8 +45,9 @@ $media-point-3: 550px;
       font-size: 10px;
       font-family: inherit;
     }
-  }
-  ul li:last-child {
-  min-height: 40px;
+    @media screen and (max-width: $p3) {
+      margin-right: 0;
+      margin-top: 0;
+    }
   }
 }
