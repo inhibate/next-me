@@ -1,0 +1,87 @@
+
+$timelineColor: rgb(222, 222, 222);
+
+@mixin media {
+  $p3: 550px;
+  @media screen and (max-width: $p3) { @content; }
+}
+
+@mixin makeRelative { & { position: relative; } }
+
+@mixin clockCircle {
+  @include makeRelative;
+  &::after {
+    content: '🕑';
+    position: absolute;
+    top: 0;
+    left: -28px;
+  }
+}
+@mixin plainCircle($top) {
+  @include makeRelative;
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: $top;
+    left: -28px;
+    background-color: $timelineColor;
+  }
+}
+
+.experience {
+  margin-left: 100px;
+  border-left: 2px solid $timelineColor;
+  a {
+    font-weight: bold;
+  }
+  ul {
+    list-style: none;
+  }
+  .item.workHistoryItem,
+  .item.educationItem {
+    @include plainCircle(6px);
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .item.workHistoryItem {
+    top: -14px;
+  }
+  .item {
+    margin: 40px 20px;
+  }
+  .item:nth-child(2) {
+    margin-top: 0;
+  }
+  .item:last-child {
+    img {
+      width: 65px;
+      height: auto;
+      margin-right: 20px;
+    }
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .position {
+    @include plainCircle(1px);
+    font-weight: bold;
+  }
+  .duration {
+    @include clockCircle;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  .resp {
+    color: rgb(30, 30, 30);
+    ul li {
+      margin: 3.5px 0;
+    }
+  }
+  @include media {
+    margin-left: 0;
+  }
+}
