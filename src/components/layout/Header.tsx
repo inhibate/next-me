@@ -13,10 +13,10 @@ const Header: FC<{}> = () => {
 
   enum HeaderLiType {Link}
   const headerLi = [
-    {type: HeaderLiType.Link, href: '/', text: 'ME'},
+    {type: HeaderLiType.Link, href: '/', text: 'MAIN'},
     {type: HeaderLiType.Link, href: '/experience', text: 'experience'},
     {type: HeaderLiType.Link, href: '/project/all', text: 'projects'},
-    {type: HeaderLiType.Link, href: '/note/all', text: 'Notes'}
+    {type: HeaderLiType.Link, href: '/note/all', text: '@Notes'}
   ]
   const lis = headerLi.map((value, i) => {
     const {href, text} = value

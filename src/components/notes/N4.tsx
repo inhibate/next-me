@@ -79,6 +79,6 @@ const Component: DescComponent<{}> = () => {
     <Paragraph>+нет boilderplate-кода</Paragraph>
   </>
 }
-Component.shortDesc = 'Что будет в консоли?'
+Component.shortDesc = 'state-management библиотека наравне с Redux Toolkit'
 
 export default Component

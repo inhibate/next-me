@@ -95,8 +95,8 @@ export default (props: Notes) => {
 
     return <>
       <Head>
-        <title>PRG938@Blog</title>
-        <meta name="description" content="Web internals" />
+        <title>Notes</title>
+        <meta name="description" content="Web notes" />
       </Head>
       <div className={styles.stats}>
         <div>теги: {tags}</div>
@@ -110,10 +110,9 @@ export default (props: Notes) => {
   }
   else {
     const goBackElement = <div onClick={goBack} style={{display: 'inline-block', cursor: 'pointer'}}>
-      <span>🡠 назад</span>
+      <span>←назад</span>
     </div>
     const item = findItem(props.items, router.query.slug as string) as Note
-    const title = item.title
     const discussionEmbedConfig = {
       url: 'https://prg938.vercel.app/note/' + item.id,
       identifier: item.id,
@@ -121,6 +120,7 @@ export default (props: Notes) => {
     }
     const NoteComponent = NoteComponents[item.mappedComponent as keyof typeof NoteComponents]
     const itemElement = <Item {...item} opened={true} />
+    const title = NoteComponent.shortDesc
     return <>
       <Head>
         <title>{title}</title>
@@ -130,15 +130,9 @@ export default (props: Notes) => {
         {goBackElement}
         <div>&nbsp;</div>
       </div>
-      <div>
-        {itemElement}
-      </div>
-      <div className={styles.desc}>
-        <NoteComponent />
-      </div>
-      <DiscussionEmbed
-        shortname='prg938-vercel-app'
-        config={discussionEmbedConfig} />
+      <div>{itemElement}</div>
+      <div className={styles.desc}><NoteComponent /></div>
+      <DiscussionEmbed shortname='prg938-vercel-app' config={discussionEmbedConfig} />
     </>
   }
 }

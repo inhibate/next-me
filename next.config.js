@@ -13,6 +13,10 @@ module.exports = {
       protocol: 'https',
       hostname: 'camo.githubusercontent.com',
       port: ''
+    },
+    {
+      protocol: 'https',
+      hostname: 'github.githubassets.com'
     }]
   },
   reactStrictMode: false,

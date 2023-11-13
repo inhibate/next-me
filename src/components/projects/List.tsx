@@ -17,24 +17,24 @@ export default ({list}: ProjectListType) => {
     const src = preview
     const w = previewSize![0]
     const h = previewSize![1]
+    const image = (src && <Image
+      src={src}
+      alt={'preview'}
+      width={w}
+      height={h}
+      placeholder='blur'
+      blurDataURL={'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAAUABQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAI/9oACAEBAAAAAD//AP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIQAAAAf//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMQAAAAf//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z'}
+      style={imageStyle}
+      quality={100} />) || null
     return <div key={id} className={styles.project}>
-      <Image
-        src={src}
-        alt={'preview'}
-        width={w}
-        height={h}
-        placeholder='blur'
-        blurDataURL={'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAAUABQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAI/9oACAEBAAAAAD//AP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIQAAAAf//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMQAAAAf//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z'}
-        style={imageStyle}
-        quality={100}
-      />
-      <div>
-        <h3 className={styles.title}>
-          <Link href={projectHref}>{repoName}</Link>
-        </h3>
-        <p className={styles.desc}>{shortDesc}</p>
-      </div>
-    </div> 
+      <Link href={projectHref}>
+        {image}
+        <div className={styles.info}>
+          <h3 className={styles.title}>{repoName}</h3>
+          <p className={styles.desc}>{shortDesc}</p>
+        </div>
+      </Link>
+    </div>
   })
   return <div className={styles.main}>{projects}</div>
 }

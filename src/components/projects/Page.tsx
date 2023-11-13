@@ -11,10 +11,10 @@ export default ({projects}: ProjectListType) => {
   const {slug} = router.query
   const slugAll = slug === 'all'
 
-  let back = <div onClick={() => router.back()} className={styles.goBack}><span>🡠 back</span></div>
+  let back = <div onClick={() => router.back()} className={styles.goBack}><span>←back</span></div>
   let content: JSX.Element
 
-  let title = 'PRG938@PROJECTS'
+  let title = 'projects'
 
   if (slugAll) {
     content = <List list={projects} />
@@ -31,7 +31,7 @@ export default ({projects}: ProjectListType) => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content="#PRG938 #projects" />
+        <meta name="description" content="#prg938 #projects" />
       </Head>
       <main className={styles.main}>
         {back}

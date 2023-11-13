@@ -6,9 +6,9 @@ import {ColorSchemes} from '../SwitchColorScheme'
 
 const Component: FC<{}> = props => {
   return <div className={styles.desc}>
-    <Paragraph>Stack:</Paragraph>
-    <Paragraph>Backend: node.js, Next, Nest, Multer, JWT (<a href="https://github.com/prg938/cloudify-backend" target="_blank">code</a>)</Paragraph>
-    <Paragraph>Client: Next, React, JSX, Nookies, Antd UI, SCSS (<a href="https://github.com/prg938/cloudify-client" target="_blank">code</a>)</Paragraph>
+    <Paragraph>Clouify is a Node.js-service where user can create profile, upload files and store them. In main page he can view a list of uploaded files with ability to move unneeded files to the bin. Bin page contains removed files</Paragraph>
+    <Paragraph>Backend (<a href="https://github.com/prg938/cloudify-backend" target="_blank"><b>code</b></a>): Node.js, Nest.js, Vercel Postgres (serverless SQL database), TypeORM, Multer, JWT</Paragraph>
+    <Paragraph>Client (<a href="https://github.com/prg938/cloudify-client" target="_blank"><b>code</b></a>): Next.js, React, JSX, Nookies, Antd, SCSS</Paragraph>
     <Paragraph>Demonstration:</Paragraph>
     <Paragraph>
       <video controls muted loop autoPlay>

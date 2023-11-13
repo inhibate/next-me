@@ -35,9 +35,9 @@ const Component: DescComponent<{}> = () => {
     <Paragraph>
       Есть статья и ее параметры: <Marker>url</Marker>  <Marker>identifier</Marker>  <Marker>title</Marker>. Передаем config с параметрами в DiscussionEmbed и Disqus загрузит thread-комментариев ассоциированный с данным набором параметров.
     </Paragraph>
-    <Paragraph>
-      Одако присутствуют проблемы с изменением темы
-    </Paragraph>
+    <h1>
+      Нюансы
+    </h1>
     <Image
       src={tension}
       alt="tension"
@@ -61,6 +61,6 @@ const Component: DescComponent<{}> = () => {
     </Paragraph>
   </>
 }
-Component.shortDesc = 'disqus-react это библиотека для интеграции Disqus-комментариев на сайт'
+Component.shortDesc = 'disqus-react. Нюансы'
 
 export default Component

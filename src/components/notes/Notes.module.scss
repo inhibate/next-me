@@ -1,36 +1,12 @@
 $control-point-1: 750px;
 $control-point-2: 515px;
 .items {
-  display: grid;
-  grid-gap: 10px;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 150px;
-  @media screen and (max-width: $control-point-1) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media screen and (max-width: $control-point-2) {
-    grid-template-columns: repeat(1, 1fr);
-  }
   > a {
+    margin: 25px 0;
     display: block;
     overflow: hidden;
-    padding: 10px;
-    background-color: var(--gist-item-background);
-    border-radius: 7px;
-    border: 1px solid transparent;
     cursor: pointer;
   }
-}
-
-.item {
-  height: 100%;
-  overflow: hidden;
-}
-
-.shortDesc {
-  color: var(--body-color);
-  margin: 15px 0;
 }
 
 .tag {

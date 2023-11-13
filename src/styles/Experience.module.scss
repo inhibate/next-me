@@ -1,5 +1,5 @@
 
-$timelineColor: rgb(222, 222, 222);
+$timelineColor: rgb(241, 241, 241);
 
 @mixin media {
   $p3: 550px;
@@ -8,23 +8,14 @@ $timelineColor: rgb(222, 222, 222);
 
 @mixin makeRelative { & { position: relative; } }
 
-@mixin clockCircle {
-  @include makeRelative;
-  &::after {
-    content: '🕑';
-    position: absolute;
-    top: 0;
-    left: -28px;
-  }
-}
 @mixin plainCircle($top) {
   @include makeRelative;
   &::after {
     content: '';
     position: absolute;
     display: block;
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     top: $top;
     left: -28px;
@@ -71,7 +62,6 @@ $timelineColor: rgb(222, 222, 222);
     font-weight: bold;
   }
   .duration {
-    @include clockCircle;
     margin: 5px 0;
     font-weight: bold;
   }

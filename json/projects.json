@@ -1,52 +1,52 @@
 [
   {
+    "id": "chrome-weather",
+    "preview": "https://user-images.githubusercontent.com/7237762/229301735-0ba10058-6239-4417-b8c0-8aa001aa7388.gif",
+    "previewSize": [456, 412],
+    "repoName": "weather plugin",
+    "repoLink": "https://github.com/prg938/chrome-weather",
+    "shortDesc": "Weather extension for Chrome",
+    "mappedComponent": "P1"
+  },
+  {
     "id": "cloudify",
-    "preview": "https://user-images.githubusercontent.com/7237762/272890478-398a7e43-296b-43e2-8419-d51af8381d0a.png",
-    "previewSize": [200, 201],
+    "preview": "https://user-images.githubusercontent.com/7237762/281799785-fc956908-2273-474c-8d8d-45f2a136a6c6.gif",
+    "previewSize": [600, 338],
     "repoName": "Cloudify",
     "repoLink": "https://github.com/prg938/cloudify-client",
-    "shortDesc": "Simple service to store uploaded files",
+    "shortDesc": "Node.js service to upload / store files",
     "mappedComponent": "P6"
   },
   {
     "id": "mariogame",
     "preview": "https://user-images.githubusercontent.com/7237762/273692235-349a244c-4e1b-4a01-974f-b094e07849a3.gif",
     "previewSize": [619, 580],
-    "repoName": "browser mario game",
+    "repoName": "mario game",
     "repoLink": "https://github.com/prg938/mariogame",
-    "shortDesc": "Mario game using JavaScript and Canvas",
+    "shortDesc": "Pure JavaScript Mario game",
     "mappedComponent": "P2"
   },
   {
-    "id": "chrome-weather",
-    "preview": "https://user-images.githubusercontent.com/7237762/229301735-0ba10058-6239-4417-b8c0-8aa001aa7388.gif",
-    "previewSize": [456, 412],
-    "repoName": "chrome weather",
-    "repoLink": "https://github.com/prg938/chrome-weather",
-    "shortDesc": "Weather extension for Chrome written on TypeScript and React",
-    "mappedComponent": "P1"
-  },
-  {
     "id": "masonrylayout-tsx-react",
-    "preview": "https://camo.githubusercontent.com/46b2051d3c1a855acc40c2fc4a05aa3a5e238815c9aeca969624229f53646522/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f313837352f504e472f3531322f6c61796f7574345f3132303437342e706e67",
-    "previewSize": [512, 512],
-    "repoName": "masonry layout",
+    "preview": "https://user-images.githubusercontent.com/7237762/281875415-061b05e7-60bc-4efb-993e-62a45f440f3c.gif",
+    "previewSize": [600, 338],
+    "repoName": "masonry",
     "repoLink": "https://github.com/prg938/masonrylayout-tsx-react",
-    "shortDesc": "Masonry layout implementation for React",
+    "shortDesc": "Masonry layout for React",
     "mappedComponent": "P3"
   },
   {
     "id": "next-me",
-    "preview": "https://user-images.githubusercontent.com/7237762/273701341-3b351a66-a7aa-4a22-84d2-f7fb5ca36250.png",
-    "previewSize": [180, 180],
-    "repoName": "PRG938 Site",
+    "preview": "",
+    "previewSize": [400, 400],
+    "repoName": "This site",
     "repoLink": "https://github.com/prg938/next-me",
-    "shortDesc": "prg938.vercel.app with Next",
+    "shortDesc": "Next.js prg938.vercel.app site",
     "mappedComponent": "P4"
   },
   {
     "id": "html-webpack-scripts-plugin",
-    "preview": "https://user-images.githubusercontent.com/7237762/272281281-7f540130-9485-48c6-b5d9-d0af5ad76ea3.png",
+    "preview": "https://user-images.githubusercontent.com/7237762/282488235-fb07e6d3-3162-40fe-a3a9-b019bd9cb38b.png",
     "previewSize": [180, 180],
     "repoName": "Webpack plugin",
     "repoLink": "https://github.com/prg938/html-webpack-scripts-plugin",

@@ -24,7 +24,7 @@ const Item: FC<ItemType> = ({id, date, title, tags, mappedComponent, opened = fa
   let commentCountElement: JSXElement = null
   let itemClassName = String()
   let titleClassName = styles.titleBig 
-  let shortDesc = null
+  let shortDesc = NoteComponents[mappedComponent as keyof typeof NoteComponents].shortDesc!
   if (!opened) {
     commentCountElement = <span className={styles.commentCount}>
       {' | '}<CommentCount shortname='prg938-vercel-app' config={commentCountConfig} >X comments</CommentCount>
@@ -32,18 +32,15 @@ const Item: FC<ItemType> = ({id, date, title, tags, mappedComponent, opened = fa
     itemClassName = styles.item
     titleClassName = styles.title
     authorElement = null
-    shortDesc = NoteComponents[mappedComponent as keyof typeof NoteComponents].shortDesc!
-
   }
   const itemElement = <div className={itemClassName}>
-    <div className={titleClassName}>{title}</div>
+    <div className={styles.shortDesc}><b>{shortDesc}</b></div>
     <div className={styles.taglist}>
       <div>{tagList}</div>
     </div>
     <div className={styles.date}>
-      <div>created: {date}{commentCountElement}</div>
+      <div>{date}{commentCountElement}</div>
     </div>
-    <div className={styles.shortDesc}>{shortDesc}</div>
     {authorElement}
   </div>
 
