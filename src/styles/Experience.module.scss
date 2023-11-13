@@ -1,5 +1,5 @@
 
-$timelineColor: rgb(241, 241, 241);
+$timelineColor: rgb(140, 140, 140);
 
 @mixin media {
   $p3: 550px;
@@ -14,18 +14,16 @@ $timelineColor: rgb(241, 241, 241);
     content: '';
     position: absolute;
     display: block;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     top: $top;
-    left: -28px;
+    left: -15px;
     background-color: $timelineColor;
   }
 }
 
 .experience {
-  margin-left: 100px;
-  border-left: 2px solid $timelineColor;
   a {
     font-weight: bold;
   }
@@ -34,7 +32,7 @@ $timelineColor: rgb(241, 241, 241);
   }
   .item.workHistoryItem,
   .item.educationItem {
-    @include plainCircle(6px);
+    @include makeRelative;
     font-size: 24px;
     margin-bottom: 0;
   }
@@ -58,20 +56,15 @@ $timelineColor: rgb(241, 241, 241);
     margin-top: 10px;
   }
   .position {
-    @include plainCircle(1px);
     font-weight: bold;
   }
   .duration {
     margin: 5px 0;
-    font-weight: bold;
   }
   .resp {
     color: rgb(30, 30, 30);
     ul li {
       margin: 3.5px 0;
     }
-  }
-  @include media {
-    margin-left: 0;
   }
 }
