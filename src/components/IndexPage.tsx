@@ -49,7 +49,7 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://webpack.js.org">Webpack</a></li>
             <li className={styles.label}><b>Backend: </b></li>
             <li><a href="https://nodejs.org/en">node.js</a></li>
-            <li><a href="https://nextjs.org">Nest.js (node.js framework)</a></li>
+            <li><a href="https://nestjs.com">Nest.js (node.js framework)</a></li>
             <li>HTTP/WS Protocols</li>
             <li><a href="https://typeorm.io">TypeORM</a></li>
             <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
