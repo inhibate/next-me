@@ -1,7 +1,7 @@
 
 import React, {FunctionComponent} from 'react'
 import styles from '@/styles/Index.module.scss'
-import myFacePhoto from '@/../public/me.jpg'
+import myFacePhoto from '@/../public/me.png'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -24,7 +24,7 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <div>Ivan Pakov. Frontend & Backend software web developer.</div>
+          <div>Ivan Pakov. Frontend software web-developer.</div>
           <div className={styles.telegram}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
             <div>telegram: <a href="https://t.me/prg938" target="_blank">t.me/prg938</a></div>
@@ -56,6 +56,8 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://jwt.io">JWT</a></li>
             <li><a href="https://redis.io">Redis</a></li>
             <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
+            <li><a href="https://www.apollographql.com/apollo-client">Apollo client</a></li>
+            <li><a href="https://graphql.org">GraphQL</a></li>
             <li className={styles.label}><b>Other: </b></li>
             <li>Git/Github/Gitlab</li>
           </ul>
