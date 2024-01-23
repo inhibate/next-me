@@ -47,6 +47,8 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://sass-lang.com">Sass</a></li>
             <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a> components libraries</li>
             <li><a href="https://webpack.js.org">Webpack</a></li>
+            <li><a href="https://www.apollographql.com/apollo-client">Apollo client</a></li>
+            <li><a href="https://graphql.org">GraphQL</a></li>
             <li className={styles.label}><b>Backend: </b></li>
             <li><a href="https://nodejs.org/en">node.js</a></li>
             <li><a href="https://nestjs.com">Nest.js (node.js framework)</a></li>
@@ -56,8 +58,6 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://jwt.io">JWT</a></li>
             <li><a href="https://redis.io">Redis</a></li>
             <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
-            <li><a href="https://www.apollographql.com/apollo-client">Apollo client</a></li>
-            <li><a href="https://graphql.org">GraphQL</a></li>
             <li className={styles.label}><b>Other: </b></li>
             <li>Git/Github/Gitlab</li>
           </ul>
