@@ -11,36 +11,40 @@ export default () => {
     <div className={styles.experience}>
       <div className={styles.item + ' ' + styles.workHistoryItem}>WORK HISTORY</div>
       <div className={styles.item}>
-        <div className={styles.position}>React Frontend Developer at Autoclad</div>
-        <div className={styles.duration}>1.5 years</div>
-        <div className={styles.resp}>
-          <ul>
-            <li>Programmed new logic using React</li>
-            <li>Edited/Updated existing logic in existing codebase</li>
-          </ul>
-        </div>
-      </div>
-      <div className={styles.item}>
-        <div className={styles.position}>React Frontend Developer at Altinet</div>
+        <div className={styles.position}>Frontend Developer (React) at Autoclad</div>
         <div className={styles.duration}>1.2 years</div>
         <div className={styles.resp}>
           <ul>
-            <li>Programmed new logic using React</li>
-            <li>Edited/Updated existing logic in existing codebase</li>
+            <li>Programmed new React-logic for dashboard panel</li>
+            <li>Interacted with backend-developers</li>
+            <li>Resolved incoming bugs</li>
+            <li>Modified/supported existing functionality in existing codebase</li>
           </ul>
         </div>
       </div>
       <div className={styles.item}>
-        <div className={styles.position}>Angular1 & React Developer at Tovarovoz (e-commerce service)</div>
+        <div className={styles.position}>Frontend Developer (React) at Altinet</div>
+        <div className={styles.duration}>1.1 years</div>
+        <div className={styles.resp}>
+          <ul>
+            <li>Programmed new logic using React</li>
+            <li>Supported functionality in existing codebase</li>
+          </ul>
+        </div>
+      </div>
+      <div className={styles.item}>
+        <div className={styles.position}>Frontend Developer (Angular1 & React) at Tovarovoz (e-commerce service)</div>
         <div className={styles.duration}>1 year</div>
         <div className={styles.resp}>
           <ul>
-            <li>Programmed new logic for admin-panel using Angular1 and React</li>
-            <li>Edited/Updated existing logic in existing codebase</li>
-            <li>Implemented CRUD for all objects within service by interacting with REST API (backend on Scala and Postgres)</li>
-            <li>Resolved incoming bugs</li>
-            <li>Integrated external components</li>
+            <li>Programmed new logic for dashboard-panel using Angular1 and React afterwards</li>
+            <li>Programmed complex UI-components</li>
+            <li>Implemented CRUD for objects within dashboard by interacting with REST API (backend on Scala and Postgres)</li>
+            <li>Implemented navigation within objects using React Router</li>
+            <li>Implemented internationalization support for 3 languages (russian, ukrainian, english)</li>
+            <li>Integrated external React-components</li>
             <li>Used <a href="https://redux.js.org">Redux</a> library for client-caching and state management</li>
+            <li>Resolved incoming bugs</li>
           </ul>
         </div>
       </div>
