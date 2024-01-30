@@ -12,7 +12,7 @@ export default () => {
       <div className={styles.item + ' ' + styles.workHistoryItem}>WORK HISTORY</div>
       <div className={styles.item}>
         <div className={styles.position}>Frontend Developer (React) at Autoclad</div>
-        <div className={styles.duration}>1.2 years</div>
+        <div className={styles.duration}>Kyiv (Ukraine) / 1.2 years</div>
         <div className={styles.resp}>
           <ul>
             <li>Programmed new React-logic for dashboard panel</li>
@@ -24,7 +24,7 @@ export default () => {
       </div>
       <div className={styles.item}>
         <div className={styles.position}>Frontend Developer (React) at Altinet</div>
-        <div className={styles.duration}>1.1 years</div>
+        <div className={styles.duration}>Kyiv (Ukraine) / 1.1 years</div>
         <div className={styles.resp}>
           <ul>
             <li>Programmed new logic using React</li>
@@ -34,7 +34,7 @@ export default () => {
       </div>
       <div className={styles.item}>
         <div className={styles.position}>Frontend Developer (Angular1 & React) at Tovarovoz (e-commerce service)</div>
-        <div className={styles.duration}>1 year</div>
+        <div className={styles.duration}>Kyiv (Ukraine) / 1 year</div>
         <div className={styles.resp}>
           <ul>
             <li>Programmed new logic for dashboard-panel using Angular1 and React afterwards</li>
