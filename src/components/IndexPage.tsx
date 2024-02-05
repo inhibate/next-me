@@ -44,7 +44,7 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
             <li><a href="https://redux.js.org">Redux</a></li>
             <li><a href="https://tanstack.com/query/latest">React Query (data fetching lib)</a></li>
-            <li><a href="https://swr.vercel.app">SWR (data fetching lib)</a></li>
+            <li><a href="https://swr.vercel.app">SWR (almost like React Query)</a></li>
             <li><a href="https://react-hook-form.com">React Hook Form</a></li>
             <li><a href="https://sass-lang.com">Sass</a></li>
             <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a> components libraries</li>
