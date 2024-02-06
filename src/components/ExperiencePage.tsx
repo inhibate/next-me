@@ -9,7 +9,7 @@ export default () => {
       <title>experience</title>
     </Head>
     <div className={styles.experience}>
-      <div className={styles.item + ' ' + styles.workHistoryItem}>WORK HISTORY</div>
+      <div className={styles.item + ' ' + styles.workHistoryItem}>🐻</div>
       <div className={styles.item}>
         <div className={styles.position}>Frontend Developer (React) at Autoclad</div>
         <div className={styles.duration}>Kyiv (Ukraine) / <b>1.2 years</b></div>
