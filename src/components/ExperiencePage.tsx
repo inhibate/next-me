@@ -43,6 +43,7 @@ export default () => {
         <div className={styles.position}>Frontend Developer (Angular1 + React) at Tovarovoz Project (e-commerce)</div>
         <div className={styles.duration}>Kyiv (Ukraine) / <b>1.1 years</b></div>
         <div className={styles.resp}>
+          <b><a href="https://gitlab.com/sergeda/inetshop_pg">gitlab.com/sergeda/inetshop_pg</a></b>
           <ul>
             <li>Разработка SPA изначально на Angular 1.x потом на React (система управления/админка интернет-магазина)</li>
             <li>Создание UI-компонентов на React</li>
