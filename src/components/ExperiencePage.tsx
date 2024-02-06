@@ -58,7 +58,7 @@ export default () => {
       </div>
       <div className={styles.item + ' ' + styles.educationItem}>Учебное заведение</div>
       <div className={styles.item}>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/%D0%98%D0%90%D0%A2%D0%AD_logo.png' />
+        <img src='https://habrastorage.org/getpro/moikrug/uploads/university/000/006/371/logo/medium_9235fe74f59b5e90fc9184a7c18b50ef.png' />
         <div>
           <div><a href="https://en.wikipedia.org/wiki/Obninsk_Institute_for_Nuclear_Power_Engineering"><b>ИАТЭ НИЯУ МИФИ</b> (Обнинский институт атомной энергетики НИЯУ МИФИ)</a></div>
           <div>Обнинск, Россия</div>
