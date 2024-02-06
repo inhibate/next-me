@@ -53,7 +53,7 @@ export default () => {
         <img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/%D0%98%D0%90%D0%A2%D0%AD_logo.png' />
         <div>
           <div><a href="https://en.wikipedia.org/wiki/Obninsk_Institute_for_Nuclear_Power_Engineering"><b>IATE MEPHI</b> (Obninsk Institute for Nuclear Power Engineering).</a></div>
-          <div>Intelligent Cybernetic Systems. Obninsk, Russia</div>
+          <div>Obninsk, Russia</div>
         </div>
       </div>
     </div>
