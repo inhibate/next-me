@@ -24,7 +24,7 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <div>Ivan Pakov. Frontend software web-developer.</div>
+          <div>Ivan Pakov. Frontend software web-developer</div>
           <div className={styles.telegram}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
             <div>telegram: <a href="https://t.me/prg938" target="_blank">t.me/prg938</a></div>
@@ -35,7 +35,7 @@ const IndexPage: FunctionComponent = props => {
         </div>
         <div className={styles.stack}>
           <ul>
-            <li><b>Stack that I use in development:</b></li>
+            <li><b>Используемый стек:</b></li>
             <li className={styles.label}><b>Frontend: </b></li>
             <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
             <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
@@ -43,7 +43,7 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://react.dev">React</a></li>
             <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
             <li><a href="https://redux.js.org">Redux</a></li>
-            <li><a href="https://tanstack.com/query/latest">React Query (data fetching lib)</a></li>
+            <li><a href="https://tanstack.com/query/latest">React Query (fetching library)</a></li>
             <li><a href="https://swr.vercel.app">SWR (almost like React Query)</a></li>
             <li><a href="https://react-hook-form.com">React Hook Form</a></li>
             <li><a href="https://sass-lang.com">Sass</a></li>
@@ -60,7 +60,7 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://jwt.io">JWT</a></li>
             <li><a href="https://redis.io">Redis</a></li>
             <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
-            <li className={styles.label}><b>Other: </b></li>
+            <li className={styles.label}><b>+: </b></li>
             <li>Git/Github/Gitlab</li>
           </ul>
         </div>
