@@ -23,6 +23,7 @@
   }
 
   .myface {
+    margin-top: 20px;
     @include media {
       text-align: center;
     }

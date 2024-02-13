@@ -38,7 +38,7 @@ const IndexPage: FunctionComponent = props => {
             <li className={styles.label}><b>Frontend стек: </b></li>
             <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
             <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
-            <li><a href="https://nextjs.org">Next.js (React framework)</a></li>
+            <li><a href="https://nextjs.org">Next (React framework)</a></li>
             <li><a href="https://react.dev">React</a></li>
             <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
             <li><a href="https://redux.js.org">Redux</a></li>
@@ -53,7 +53,7 @@ const IndexPage: FunctionComponent = props => {
           <ul>
             <li className={styles.label}><b>Backend стек: </b></li>
             <li><a href="https://nodejs.org/en">Node.js</a></li>
-            <li><a href="https://nestjs.com">Nest.js (Node.js Framework)</a></li>
+            <li><a href="https://nestjs.com">Nest (Node Framework)</a></li>
             <li><a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a></li>
             <li><a href="https://ru.wikipedia.org/wiki/WebSocket">WebSocket</a></li>
             <li><a href="https://typeorm.io">TypeORM</a></li>
@@ -63,8 +63,8 @@ const IndexPage: FunctionComponent = props => {
           </ul>
           <ul>
             <li className={styles.label}><b>+: </b></li>
-            <li>Github: <a href="https://github.com/prg938">github.com/prg938</a></li>
-            <li>Gitlab: <a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse</a></li>
+            <li><a href="https://github.com/prg938">github.com/prg938 (github)</a></li>
+            <li><a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse (Gitlab)</a></li>
           </ul>
         </div>
       </main>
