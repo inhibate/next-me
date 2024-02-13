@@ -31,12 +31,11 @@ const IndexPage: FunctionComponent = props => {
           </div>
         </div>
         <div className={styles.myface}>
-          <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" style={{borderRadius: '50%'}} />
+          <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" />
         </div>
         <div className={styles.stack}>
           <ul>
-            <li><b>Используемый стек:</b></li>
-            <li className={styles.label}><b>Frontend: </b></li>
+            <li className={styles.label}><b>Frontend стек: </b></li>
             <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
             <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
             <li><a href="https://nextjs.org">Next.js (React framework)</a></li>
@@ -50,7 +49,9 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://webpack.js.org">Webpack</a></li>
             <li><a href="https://www.apollographql.com/apollo-client">Apollo Client</a></li>
             <li><a href="https://graphql.org">GraphQL</a></li>
-            <li className={styles.label}><b>Backend: </b></li>
+          </ul>
+          <ul>
+            <li className={styles.label}><b>Backend стек: </b></li>
             <li><a href="https://nodejs.org/en">Node.js</a></li>
             <li><a href="https://nestjs.com">Nest.js (Node.js Framework)</a></li>
             <li><a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a></li>
@@ -59,6 +60,8 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://jwt.io">JWT</a></li>
             <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
             <li><a href="https://en.wikipedia.org/wiki/REST">Git</a></li>
+          </ul>
+          <ul>
             <li className={styles.label}><b>+: </b></li>
             <li>Github: <a href="https://github.com/prg938">github.com/prg938</a></li>
             <li>Gitlab: <a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse</a></li>
