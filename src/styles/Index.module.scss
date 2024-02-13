@@ -23,6 +23,9 @@
   }
 
   .myface {
+    @include media {
+      text-align: center;
+    }
     img {
       width: 155px;
       height: auto;
@@ -32,6 +35,9 @@
   .stack {
     display: flex;
     font-size: 14px;
+    @include media {
+      flex-direction: column;
+    }
     ul {
       margin-right: 20px;
       list-style: none;
@@ -39,9 +45,5 @@
         margin-top: 20px;
       }
     }
-  }
-
-  @include media {
-    flex-direction: column;
   }
 }
