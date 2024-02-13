@@ -35,7 +35,7 @@ const IndexPage: FunctionComponent = props => {
         </div>
         <div className={styles.stack}>
           <ul>
-            <li className={styles.label}><b>Frontend стек: </b></li>
+            <li className={styles.label}><b>Frontend: </b></li>
             <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
             <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
             <li><a href="https://nextjs.org">Next (React framework)</a></li>
@@ -51,7 +51,7 @@ const IndexPage: FunctionComponent = props => {
             <li><a href="https://graphql.org">GraphQL</a></li>
           </ul>
           <ul>
-            <li className={styles.label}><b>Backend стек: </b></li>
+            <li className={styles.label}><b>Backend: </b></li>
             <li><a href="https://nodejs.org/en">Node.js</a></li>
             <li><a href="https://nestjs.com">Nest (Node Framework)</a></li>
             <li><a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a></li>
