@@ -24,7 +24,7 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <div>Ivan Pakov. Frontend software web-developer</div>
+          <div>Привет)</div>
           <div className={styles.telegram}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
             <div>telegram: <a href="https://t.me/prg938" target="_blank">t.me/prg938</a></div>
