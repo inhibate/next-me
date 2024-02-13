@@ -35,36 +35,10 @@ const IndexPage: FunctionComponent = props => {
         </div>
         <div className={styles.stack}>
           <ul>
-            <li className={styles.label}><b>Frontend: </b></li>
-            <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
-            <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
-            <li><a href="https://nextjs.org">Next (React framework)</a></li>
-            <li><a href="https://react.dev">React</a></li>
-            <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
-            <li><a href="https://redux.js.org">Redux</a></li>
-            <li><a href="https://swr.vercel.app">SWR</a></li>
-            <li><a href="https://react-hook-form.com">React Hook Form</a></li>
-            <li><a href="https://sass-lang.com">Sass</a></li>
-            <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a></li>
-            <li><a href="https://webpack.js.org">Webpack</a></li>
-            <li><a href="https://www.apollographql.com/apollo-client">Apollo Client</a></li>
-            <li><a href="https://graphql.org">GraphQL</a></li>
-          </ul>
-          <ul>
-            <li className={styles.label}><b>Backend: </b></li>
-            <li><a href="https://nodejs.org/en">Node.js</a></li>
-            <li><a href="https://nestjs.com">Nest (Node Framework)</a></li>
-            <li><a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a></li>
-            <li><a href="https://ru.wikipedia.org/wiki/WebSocket">WebSocket</a></li>
-            <li><a href="https://typeorm.io">TypeORM</a></li>
-            <li><a href="https://jwt.io">JWT</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/REST">Git</a></li>
-          </ul>
-          <ul>
-            <li className={styles.label}><b>+: </b></li>
-            <li><a href="https://github.com/prg938">github.com/prg938 (github)</a></li>
-            <li><a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse (Gitlab)</a></li>
+            <li className={styles.label}><b>Другие ссылки: </b></li>
+            <li><b>github: </b><a href="https://github.com/prg938">github.com/prg938</a></li>
+            <li><b>gitlab: </b><a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse</a></li>
+            <li><b>mail: </b> <a href="mailto:prg938@mail.ru">prg938@mail.ru</a></li>
           </ul>
         </div>
       </main>
