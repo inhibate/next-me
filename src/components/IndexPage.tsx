@@ -24,7 +24,7 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <div>Привет. А где здесь винегрет?)</div>
+          <div>Привет. Не подскажите где тут готовят винегрет?</div>
         <div className={styles.myface}>
           <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" />
         </div>
