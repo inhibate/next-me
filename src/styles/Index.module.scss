@@ -42,7 +42,7 @@
     ul {
       margin-right: 20px;
       list-style: none;
-      li.label {
+      li {
         @include media {
           text-align: center;
         }
