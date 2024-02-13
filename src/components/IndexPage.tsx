@@ -1,7 +1,7 @@
 
 import React, {FunctionComponent} from 'react'
 import styles from '@/styles/Index.module.scss'
-import myFacePhoto from '@/../public/me.png'
+import myFacePhoto from '@/../public/me.jpg'
 import Head from 'next/head'
 import Image from 'next/image'
 
