@@ -24,22 +24,16 @@ const IndexPage: FunctionComponent = props => {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <div>Привет)</div>
-          <div className={styles.telegram}>
+          <div>Привет. А где здесь винегрет?)</div>
+        <div className={styles.myface}>
+          <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" />
+        </div>
+        <div className={styles.telegram}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
             <div>telegram: <a href="https://t.me/prg938" target="_blank">t.me/prg938</a></div>
           </div>
         </div>
-        <div className={styles.myface}>
-          <Image src={myFacePhoto} quality={100} alt="PRG938" placeholder="blur" />
-        </div>
         <div className={styles.stack}>
-          <ul>
-            <li className={styles.label}><b>Другие ссылки: </b></li>
-            <li><b>github: </b><a href="https://github.com/prg938">github.com/prg938</a></li>
-            <li><b>gitlab: </b><a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse</a></li>
-            <li><b>mail: </b> <a href="mailto:prg938@mail.ru">prg938@mail.ru</a></li>
-          </ul>
         </div>
       </main>
     </>
