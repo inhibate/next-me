@@ -39,29 +39,29 @@ const IndexPage: FunctionComponent = props => {
             <li className={styles.label}><b>Frontend: </b></li>
             <li><a href="https://en.wikipedia.org/wiki/JavaScript">Pure JavaScript</a></li>
             <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
-            <li><a href="https://nextjs.org">Next.js (Web React framework)</a></li>
+            <li><a href="https://nextjs.org">Next.js (React framework)</a></li>
             <li><a href="https://react.dev">React</a></li>
             <li><a href="https://github.com/pmndrs/zustand">Zustand 🐻</a></li>
             <li><a href="https://redux.js.org">Redux</a></li>
-            <li><a href="https://tanstack.com/query/latest">React Query (fetching library)</a></li>
-            <li><a href="https://swr.vercel.app">SWR (almost like React Query)</a></li>
+            <li><a href="https://swr.vercel.app">SWR</a></li>
             <li><a href="https://react-hook-form.com">React Hook Form</a></li>
             <li><a href="https://sass-lang.com">Sass</a></li>
-            <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a> components libraries</li>
+            <li><a href="https://mui.com">MUI</a>/<a href="https://ant.design">Antd</a></li>
             <li><a href="https://webpack.js.org">Webpack</a></li>
-            <li><a href="https://www.apollographql.com/apollo-client">Apollo client</a></li>
+            <li><a href="https://www.apollographql.com/apollo-client">Apollo Client</a></li>
             <li><a href="https://graphql.org">GraphQL</a></li>
             <li className={styles.label}><b>Backend: </b></li>
-            <li><a href="https://nodejs.org/en">node.js</a></li>
-            <li><a href="https://nestjs.com">Nest.js (node.js framework)</a></li>
-            <li>HTTP/WS Protocols</li>
+            <li><a href="https://nodejs.org/en">Node.js</a></li>
+            <li><a href="https://nestjs.com">Nest.js (Node.js Framework)</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/WebSocket">WebSocket</a></li>
             <li><a href="https://typeorm.io">TypeORM</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
             <li><a href="https://jwt.io">JWT</a></li>
-            <li><a href="https://redis.io">Redis</a></li>
-            <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/REST">REST</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/REST">Git</a></li>
             <li className={styles.label}><b>+: </b></li>
-            <li>Git/Github/Gitlab</li>
+            <li>Github: <a href="https://github.com/prg938">github.com/prg938</a></li>
+            <li>Gitlab: <a href="https://gitlab.com/hypotenuse">gitlab.com/hypotenuse</a></li>
           </ul>
         </div>
       </main>
