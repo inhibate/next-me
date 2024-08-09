@@ -4,7 +4,7 @@ import Page from '@/components/projects/Page'
 import {NextPageWithLayout} from '../_app'
 
 const projects = async (): Promise<{id: any}[]> => {
-  return [{id: 1}]
+  return [{id: "1"}]
 }
 
 const getStaticProps = async () => ({props: {projects: await projects()}})
