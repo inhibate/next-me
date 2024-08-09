@@ -6,9 +6,9 @@ import Footer from './Footer'
 
 const Layout: FunctionComponent<PropsWithChildren<{}>> = ({children}) => {
   return (
-    <div>
-      <Header />
-      <div className={styles.layout}>
+    <div className={styles.layout}>
+      <div>
+        {/*<Header />*/}
         {children}
         <Footer />
       </div>

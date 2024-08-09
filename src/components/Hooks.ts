@@ -1,7 +1,7 @@
-import type {RootState} from '@/GlobalRedux/store'
+import type {RootState} from '@/redux/store'
+import {useEffect, useState} from 'react'
 import {useSelector} from 'react-redux'
 import {ColorSchemes} from './SwitchColorScheme'
-import {useEffect, useState} from 'react'
 
 export const useColorScheme = () => {
   const [isHydrated, setIsHydrated] = useState(false)

@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-ts",
-  "version": "0.1.0",
+  "name": "next-ts",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,26 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.6",
     "@reduxjs/toolkit": "^1.9.5",
-    "@types/js-beautify": "^1.13.3",
     "@types/node": "18.16.0",
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
-    "@types/react-syntax-highlighter": "^15.5.6",
-    "disqus-react": "^1.1.5",
-    "html-react-parser": "^3.0.16",
-    "js-beautify": "^1.14.7",
     "masonrylayout-tsx-react": "^1.0.2",
     "next": "13.3.1",
     "nookies": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "^8.1.1",
-    "react-syntax-highlighter": "^15.5.0",
-    "swr": "^2.1.5",
     "typescript": "5.0.4"
   },
   "devDependencies": {

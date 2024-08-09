@@ -3,7 +3,7 @@ import type {ReactElement, ReactNode} from 'react'
 import type {NextPage} from 'next'
 import type {AppProps} from 'next/app'
 import {Roboto_Flex} from 'next/font/google'
-import {Provider} from '@/GlobalRedux/provider'
+import {Provider} from '@/redux/provider'
 
 const font = Roboto_Flex({
   weight: ['400', '500', '600', '700'],

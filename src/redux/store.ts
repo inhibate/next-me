@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit"
-import colorSchemeReducer from './Entities/colorScheme'
+import colorSchemeReducer from './slices/colorScheme'
 
 export const store = configureStore({
   reducer: {

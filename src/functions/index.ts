@@ -1,5 +1,2 @@
 
-
-export const concatStyles = (...strings: string[]) => {
-  return strings.join(' ')
-}
+export const concatStyles = (...strings: string[]) => strings.join(' ')

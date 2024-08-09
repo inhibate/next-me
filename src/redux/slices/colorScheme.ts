@@ -7,8 +7,7 @@ export interface ColorSchemeState {
 const defineInitialState = (): ColorSchemeState => {
   let scheme = 'text'
   try {
-    // Next(Server)
-    // ReferenceError: localStorage is not defined
+    // Next/Server ReferenceError localStorage is not defined
     scheme = localStorage.getItem('colorScheme') as string
   }
   catch (error) {}
