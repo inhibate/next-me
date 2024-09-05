@@ -16,15 +16,7 @@ const IndexPage: FunctionComponent = props => {
       <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
     </Head>
     <main className={styles.main}>
-      <div className={styles.myface}>
-        <PlaceholderImage src={myFacePhoto} w={100} h={100} style={""} />
-      </div>
-      <div className={styles.telegram}>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25" />
-        <h2>telegram: <a href="https://t.me/inhibate" target="_blank">t.me/inhibate</a></h2>
-      </div>
-      <h2>экспириенс: <a href="https://career.habr.com/inhibate/print" target="_blank">career.habr/inhibate</a></h2>
-      <h2>2024</h2>
+      <h2>Привет 🌝 Я <b>React/Next Frontend-разработчик.</b> Резюме/CV: <a href="https://career.habr.com/ivanpk938/print" target="_blank">career.habr.com/ivanpk938</a></h2>
     </main>
   </React.Fragment>
 }
