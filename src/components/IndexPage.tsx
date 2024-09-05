@@ -16,7 +16,7 @@ const IndexPage: FunctionComponent = props => {
       <meta name="google-site-verification" content="WwqOSUwmJ7QuPCHC5yGGIOBO21M4gd6RZAkR0hcStf8" />
     </Head>
     <main className={styles.main}>
-      <h2>Привет 🌝 Я <b>React/Next Frontend-разработчик.</b> Резюме/CV: <a href="https://career.habr.com/ivanpk938/print" target="_blank">career.habr.com/ivanpk938</a></h2>
+      <h4>Привет 🌝 Я <b>React/Next Frontend-разработчик.</b> Резюме/CV: <a href="https://career.habr.com/ivanpk938/print" target="_blank">career.habr.com/ivanpk938</a></h4>
     </main>
   </React.Fragment>
 }
